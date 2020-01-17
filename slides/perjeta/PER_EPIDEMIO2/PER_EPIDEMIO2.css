@@ -1,0 +1,40 @@
+#EPIDEMIO2{
+    /* background: url('assets/19_04_02_conception_graphique_chapitre Perjeta V0.1-03.jpg') no-repeat;
+   background-size: 100% 100%; */
+   position: relative;
+   height: 75%;
+   width: 90%;
+   top: 13%;
+   left: 10%;
+    /* border: 1px red solid ;   */
+}
+#titre_perjeta_s2{
+    position: absolute;
+    background: url('assets/texte_1-01.png') no-repeat;
+    background-size: contain;
+    /* border: 1px red solid;  */
+    width: 51%;
+    height: 10%;
+    top: 0%;
+    left: 20%;
+}
+#gif_perjeta_s2{
+    position: absolute;
+    background: url("assets/gif/Gif1.gif") no-repeat;
+    background-size: contain;
+    /* border: 1px solid sandybrown;  */
+    width: 55%;
+    height: 75%;
+    top: 8%;
+    left: 20%;
+}
+#texte_perjeta_s2{
+    position: absolute;
+    background: url('assets/texte_2-01.png') no-repeat center center;
+    background-size: contain;
+    /* border: 1px green solid;  */
+    width: 85%;
+    height: 25%;
+    top: 78%;
+    left: 5%;
+}

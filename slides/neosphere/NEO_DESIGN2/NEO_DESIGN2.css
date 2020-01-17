@@ -1,0 +1,42 @@
+#NEO_DESIGN2 {}
+
+
+#neo-des1-warpper {
+    top: 6%;
+    position: relative;
+    height: 80%;
+    width: 85%;
+    margin: 0 auto ;
+    margin-left: 10%;
+}
+#neo-des2-block1 {
+    height: 30%;
+    width: 100%;
+    background: url(assets/texte-02.png) no-repeat;
+    background-size: contain ;
+}
+
+#neo-des2-block2 {
+    background: url(assets/texte-01.png) no-repeat;
+    background-size: contain ;
+    height: 75%;
+    width: 100%;
+}
+/* #neo-des2-text1 {
+    position: relative;
+    left: 3%;
+    height: 82%;
+    width: 64%;
+     background: url(assets/texte-02.png) no-repeat center center ; 
+    background-size: contain ;
+} */
+
+/* #neo-des2-text2 {
+    position: relative;
+    top: 5%;
+    height: 100%;
+    width: 93%;
+    left: 3%;
+    background: url(assets/texte-01.png) no-repeat;
+    background-size: contain ;
+} */

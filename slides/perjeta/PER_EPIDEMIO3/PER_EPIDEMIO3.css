@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Sansation Regular";
+    src: url("assets/popup/Sansation_Regular.ttf") format("truetype")
+}
+#EPIDEMIO3{    
+    /* background: url('assets/19_04_02_conception_graphique_chapitre Perjeta V0.1-07.jpg') no-repeat;
+   background-size: 100% 100%;  */
+   position: relative;
+   height: 75%;
+   width: 90%;
+   top: 13%;
+   left: 10%;
+   /* border: 1px red solid ;    */
+}
+#titre_perjeta_s3{
+    position: relative;
+    background: url('assets/titre-01.png') no-repeat;
+    background-size: contain;
+    /* border: 1px red solid;    */
+    width: 66%;
+    height: 15%;
+    top: 0%;
+    left: 12%;
+}
+
+#texte_perjeta_s3{
+    position: relative;
+    background: url('assets/texte_2.png') no-repeat center center;
+    background-size: contain;
+    /* border: 1px green solid;   */
+    width: 85%;
+    height: 40%;
+    top: 0%;
+    left: 3%;
+}
+#courbe_perjeta_s3{
+   position: relative;
+   background: url('assets/pop-up-01-01.png') no-repeat center center;
+   background-size: contain;
+   /* border: 1px solid sandybrown;  */
+   width: 54%;
+   height: 47%;
+   top: 0%;
+   left: 19%;
+}
+#ligne_courbe_perjeta_s3{
+   position: absolute;
+   background: url('assets/300.png') no-repeat center center;
+   background-size: contain;
+   /* border: 1px solid darkmagenta;  */
+   width: 64%;
+   height: 53%;
+   top: 25%;
+   left: 12%;
+}
+/***********popup************/
+#popup_PER_EPIDEMIO3{
+    position: relative;
+    background: url("assets/popup/popup-01.png") no-repeat center center;
+    background-size:contain;
+    width: 90%;
+    height: 0%;
+    margin: 0 auto ;
+    padding-top: 46.03487490523124%; 
+    margin-top:12%;
+}
+#legend_PER_EPIDEMIO3{
+    position: relative;
+    /* background: url("assets/popup/texte.png") no-repeat center center;
+    background-size: contain; */
+    top: 4%;
+    font-size: 23px;
+    font-family:  "Sansation Regular";
+    color: #3F3F3F;
+    z-index: 999;
+
+
+}

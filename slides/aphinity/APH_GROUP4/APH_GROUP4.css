@@ -1,0 +1,35 @@
+#APH_GROUP4 {}
+
+#aph-gr4-warpper {
+    height: 85%;
+    width: 80%;
+    margin: 0 auto ;
+}
+
+#aph-gr4-title{
+    width: 80%;
+    margin: 0 auto;
+    height: 20%;
+    background: url(assets/title.png) no-repeat center center ;
+    background-size: contain;
+}
+
+#aph-gr4-graph{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    background: url(assets/graph.png) no-repeat center center ;
+    background-size: contain;
+}
+
+#aph-gr4-courbe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(assets/courbe.png) no-repeat center center  ;
+    background-size: contain;
+    -webkit-clip-path: polygon(164px 132px, 96.78% 81px, 97.04% 33.92%, 167px 39.59%);
+    clip-path: polygon(164px 132px, 96.78% 81px, 97.04% 33.92%, 167px 39.59%);
+
+}
+

@@ -1,0 +1,49 @@
+#APH_SECURITY4 {}
+
+#aph-sec4-warpper {
+    height: 90%;
+    width: 80%;
+    margin: 0 auto ;
+}
+#aph-sec4-title1{
+    height: 10%;
+    width: 100%;
+    margin: 0 auto ; 
+    background: url(assets/texte_1.png) no-repeat center center ;
+    background-size: contain ;
+    margin-bottom: 1%;
+}
+#aph-sec4-title2{
+    height: 10%;
+    width: 100%;
+    margin: 0 auto ; 
+    background: url(assets/texte_2.png) no-repeat center center ;
+    background-size: contain ;
+    margin-bottom: 1%;
+}
+#aph-sec4-table1{
+    height: 60%;
+    width: 80%;
+    margin: 0 auto ; 
+    background: url(assets/tableau.png) no-repeat center center ;
+    background-size: contain ;
+}
+#aph-sec4-bloc-text1{
+    height: 18%;
+    width: 91%;
+    margin: 0 auto ; 
+    background: url(assets/bloc_de_texte.png) no-repeat center center ;
+    background-size: contain ;
+}
+
+#aph-sec4-overlay{
+    position: relative;
+    height: 0% ;
+    margin: 0 auto ;
+    width: 90%;
+    padding-top: 54.523%;
+    background: url(assets/popup/popup-01.png) no-repeat;
+    background-size: contain;
+    margin-top: 10%;
+
+}

@@ -1,0 +1,220 @@
+#EPIDEMIO1 {
+    /* background: url('assets/19_04_02_conception_graphique_chapitre Perjeta V0.1-03.jpg') no-repeat;
+   background-size: 100% 100%; */
+   position: relative;
+   height: 75%;
+   width: 90%;
+   top: 13%;
+   left: 10%;
+     /* border: 1px red solid ;  */
+    background-color: #F5F6FF;
+}
+#titre_perjeta_s1{
+    position: relative;
+    background: url('assets/1-01.png') no-repeat;
+    background-size: contain;
+    /* border: 1px red solid; */
+    width: 55%;
+    height: 10%;
+    top: 0%;
+    left: 15%;
+}
+#sous_titre_perjeta_s1{
+    position: relative;
+    background: url('assets/2-01.png') no-repeat center center;
+    background-size: contain;
+    /* border: 1px green solid; */
+    width: 66%;
+    height: 12%;
+    top: 3%;
+    left: 11%;
+}
+#text_perjeta_s1{
+    position: relative;
+    background: url('assets/3-01.png') no-repeat center center;
+    background-size: contain;
+    /* border: 1px orange solid; */
+    width: 60%;
+    height: 62%;
+    top: 12%;
+    left: 2%;
+    float: left;
+
+}
+#schema_perjeta_s1{
+    position: relative;
+     /* border: 1px darkcyan solid;  */
+     width: 35%;
+     height: 70%;
+     top: 7%;
+     left: 60%; 
+}
+#trait_perjeta_s1{
+    position: absolute;
+    background: url('assets/element_2.png') no-repeat center center;
+    background-size: contain;
+     /* border: 1px firebrick solid;  */
+     width: 88%;
+     height: 52%;
+     top: 53%;
+     left: 6%;
+
+}
+
+#cercle_perjeta_s1{
+    position: relative;
+    background: url('assets/4-01.png') no-repeat center center;
+    background-size: contain;
+     /* border: 1px solid lawngreen;  */
+     width: 100%;
+     height: 70%;
+     top: 17%;
+     left: 0%;
+    
+}
+#demi_cercle_perjeta_s1{
+    position: absolute;
+    background: url('assets/5-01.png') no-repeat center center;
+    background-size: contain;
+    /* border: 1px coral solid;  */
+    width: 33%;
+    height: 40%;
+    top: 9%;
+    left: 49%;
+}
+#petit_text1_perjeta_s1{
+    position:  absolute;
+    background: url('assets/15-01.png') no-repeat center center;
+    background-size: contain;
+    /* border: 2px slateblue solid;  */
+    width: 80%;
+    height: 37%;
+    top: 8%;
+    left: 18%;
+}
+#petit_text2_perjeta_s1{
+    position: absolute;
+    background: url('assets/16-01.png') no-repeat center center;
+    background-size: contain;
+    /* border: 1px teal solid;  */
+    width: 63%;
+    height: 30%;
+    top: 61%;
+    left: 26%;
+
+}
+#text_her_perjeta_s1{
+    position: absolute;
+    background: url('assets/12-01.png') no-repeat center center;
+    background-size: contain;
+    /* border: 1px teal solid;  */
+    width: 22%;
+    height: 9%;
+    top: 27%;
+    left: 50%;
+}
+
+#texte_dans_cercle{
+    position: relative;
+    /* border: 1px solid red; */
+    height: 35%;
+    width: 49%;
+    top: 40%;
+    left: 26%;
+}
+#fleche1_perjeta_s1{
+    position: absolute;
+    background: url('assets/13-01.png') no-repeat center center;
+    background-size: contain;
+     /* border: 1px blueviolet solid;  */
+     width: 19%;
+     height: 30%;
+     top: 12%;
+     left: 0%;
+}
+#fleche2_perjeta_s1{
+    position: absolute;
+    background: url('assets/14-01.png') no-repeat center center ;
+    background-size: contain;
+    /* border: 1px lightcoral solid; */
+    width: 19%;
+    height: 30%;
+    top: 60%;
+    left: 0%;
+}
+#trait_vert_perjeta_s1{
+    position: absolute;
+    background: url('assets/element_1-01.png') no-repeat center center;
+    background-size: contain;
+    /* border: 1px firebrick solid;  */
+    width: 38%;
+    height: 44%;
+    top: 6%;
+    left: 47%;
+}
+/************animation***********/
+
+@-webkit-keyframes  appariton{
+    from {
+        opacity:0;
+
+    }
+    to {
+        opacity: 1;
+    }
+ }
+
+ @keyframes appariton{
+    from {
+        opacity:0;
+
+    }
+    to {
+        opacity: 1;
+    }
+ }
+
+ @-webkit-keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+              opacity:0;
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+              opacity: 1;
+
+    }
+  }
+  @keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+              opacity: 0;
+
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+              opacity: 1;
+
+    }
+  }
+.cercle_perjeta_s1_anim{
+	-webkit-animation: rotate-center 0.8s linear ;
+	        animation: rotate-center 0.8s  linear;
+}
+.trait_perjeta_s1_anim{
+    -webkit-animation: appariton 1s  ; 
+    animation: appariton 1s  ;  
+}
+
+.texte_dans_cercle_anim{
+    -webkit-animation: appariton 5.5s  ; 
+    animation: appariton 5.5s  ;  
+}
+.trait_vert_perjeta_s1_anim{
+    -webkit-animation: appariton 2.5s  ; 
+    animation: appariton 2.5s  ;  
+}

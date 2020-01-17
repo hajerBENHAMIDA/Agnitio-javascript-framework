@@ -1,0 +1,1119 @@
+#Home-4-RUB {
+    /* background: url("assets/background-01.png") no-repeat;
+    background-size:contain;    */
+}
+#back_famille{
+    position: absolute;
+    background: url("assets/test\ slide\ perjeta-01.png") no-repeat;   
+    background-size: cover;
+    height: 102%;
+    width: 100%;
+    /* border: 1px red solid; */
+    top: 1px;
+    left: 0;
+    /* margin-top: 0%; */
+    background-position-y: -17px;
+    /* animation: clis 3s linear alternate-reverse infinite;
+    background-color: red ; */
+}
+
+@keyframes clis{
+  0% {
+    clip-path: polygon(50% 0%, 0% 100%, 29% 100%);
+
+  }
+  33%{
+    clip-path: polygon(50% 0%, 23% 100%, 51% 100%);
+
+  }
+  66% {
+    clip-path: polygon(50% 0%, 57% 100%, 80% 100%);
+
+  }
+  99%,100%{
+    clip-path: polygon(50% 0%, 78% 100%, 100% 100%);
+
+  }
+}
+/*********anim aparition cercles*********/
+@keyframes appariton{
+    from {
+        opacity:0;
+
+    }
+    to {
+        opacity: 1;
+    }
+ }
+
+ @-webkit-keyframes appariton{
+     from {
+         opacity:0;
+
+     }
+     to {
+         opacity: 1;
+     }
+  }
+
+/***********menu*************/
+#menu{
+    position: absolute;
+    /* border: 1px solid fuchsia; */
+    height: 97%;
+    width: 100%;
+}
+/******fleur tryphaena**********/
+#tryphaena {
+    position: relative;
+    /* border: 1px solid darkblue; */
+    height: 31%;
+    width: 28%;
+    top: 25%;
+    left: 2%;
+}
+#point_tryphaena{
+    position: absolute;
+    background: url("assets/tryphaena/1-01.png") no-repeat;
+    background-size:cover;
+    /* border:1px solid red; */
+    height: 32%;
+    width: 53%;
+    top: 4%;
+    left: 33%;
+    /* -webkit-animation: petale 6s; */
+
+}
+
+
+
+
+#cercle_tryphaena{
+    position: absolute;
+    background: url("assets/tryphaena/cercle-01.png") no-repeat;
+    background-size:cover;
+    /* border:1px solid darkgreen; */
+    height: 89%;
+    width: 72%;
+    top: 0%;
+    left: 35%;
+}
+
+#petale1_tryphaena{
+    position: relative;
+    display:block;
+    background: url("assets/tryphaena/3-01.png") no-repeat right;
+    background-size: contain;    /* border:1px solid coral; */
+    height: 87%;
+    width: 98%;
+    top: 12%;
+    left: -4%;
+    float: right;
+}
+
+
+
+#petale2_tryphaena{
+    position: absolute;
+    background: url("assets/tryphaena/4-01.png") no-repeat;
+    background-size:cover;
+    /* border:1px solid forestgreen; */
+    height: 44%;
+    width: 48%;
+    top: 56%;
+    left: 4%;
+}
+
+
+
+#petale3_tryphaena{
+    position: absolute;
+    background: url("assets/tryphaena/5-01.png") no-repeat;
+    background-size:contain;
+    /* border:1px solid indigo; */
+    height: 18%;
+    width: 36%;
+    top: 41%;
+    left: 7%;
+}
+ /********* animation fleur tryphaena***********/
+ .cercle_tryphaena_annim{
+    -webkit-animation: appariton 0.8s  linear; 
+    animation: appariton 0.8s  linear ;  
+
+
+}
+
+@-webkit-keyframes pet1_try {
+  0% {
+
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0, 0 0);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0, 0 0);
+
+
+      }
+    25% {
+
+      clip-path:polygon(0 0, 100% 0, 100% 100%, 100% 100%, 28% 44%);
+      -webkit-clip-path:polygon(0 0, 100% 0, 100% 100%, 100% 100%, 28% 44%);
+
+        }
+          50%{
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 35% 100%, 21% 45%);
+            -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 35% 100%, 21% 45%);
+
+          }
+        100% {
+
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 45%);
+          -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 45%);
+
+        }
+  }
+  @keyframes pet1_try{
+    0% {
+
+      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0, 0 0);
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0, 0 0);
+
+        }
+    25% {
+
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 28% 44%);
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 28% 44%);
+
+        }
+        50%{
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 35% 100%, 21% 45%);
+          -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 35% 100%, 21% 45%);
+
+        }
+
+    100% {
+
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 45%);
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 45%);
+
+    }
+  }
+  
+.petale1_tryphaena_annim{
+    /* -webkit-animation: petale 2s ease-in;  */
+    -webkit-animation: pet1_try 1s linear ;
+   animation: pet1_try 1s linear  ; 
+}
+
+
+
+@-webkit-keyframes pet2_try {
+    0% {
+
+      clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+      -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+
+    }
+    100% {
+
+      clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+      -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+
+    }
+  }
+  @keyframes pet2_try {
+    0% {
+
+      clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+      -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+
+    }
+    100% {
+
+      clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+      -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+
+
+    }
+  }
+.petale2_tryphaena_annim{
+
+
+    -webkit-animation: pet2_try 1s linear ;
+    animation: pet2_try 1s linear; 
+
+}
+
+
+@-webkit-keyframes pet3_try {
+  0% {
+
+    clip-path: polygon(100% 100%, 100% 100%, 100% 0, 100% 0);
+    -webkit-clip-path: polygon(100% 100%, 100% 100%, 100% 0, 100% 0);
+
+  }
+  100% {
+
+    clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+    -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+
+  }
+  }
+  @keyframes pet3_try {
+    0% {
+
+      clip-path: polygon(100% 100%, 100% 100%, 100% 0, 100% 0);
+      -webkit-clip-path: polygon(100% 100%, 100% 100%, 100% 0, 100% 0);
+
+    }
+    100% {
+
+      clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+      -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+
+    }
+  }
+.petale3_tryphaena_annim{
+
+    -webkit-animation: pet3_try 1s linear;
+    animation: pet3_try 1s linear; 
+}
+
+@-webkit-keyframes poin_try {
+    0% {
+
+      clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+      -webkit-clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+
+    }
+    100% {
+
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+    }
+  }
+  @keyframes poin_try {
+    0% {
+
+      clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+      -webkit-clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+
+    }
+    100% {
+
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+    }
+  }
+.point_tryphaena_annim{
+    -webkit-animation:  poin_try 2s linear;
+    animation:  poin_try 2s linear ;
+}
+
+
+/**********fleur perjeta******/
+#perjeta {
+    position: relative;
+    /* border: 1px solid sandybrown; */
+    height: 31%;
+    width: 32%;
+    top: -27%;
+    left: 31%;
+}
+
+#petale1_perjeta{
+    position: absolute;
+    background: url("assets/perjeta/1-01.png") no-repeat;
+    background-size:cover;
+     /* border:1px solid coral;  */
+    height: 98%;
+    width: 43%;
+    top: -4%;
+    left: 4%;
+
+    }
+
+
+#petale2_perjeta{
+    position: absolute;
+    background: url("assets/perjeta/3-01.png") no-repeat;
+    background-size:cover;
+     /* border:1px solid forestgreen;  */
+     height: 52%;
+     width: 74%;
+     top: 2%;
+     left: 23%;
+    }
+
+#cercle_perjeta{
+    position: absolute;
+    background: url("assets/perjeta/cercle_2-01.png") no-repeat;
+    background-size:cover;
+     /* border:1px solid darkgoldenrod;  */
+     height: 76%;
+     width: 62%;
+     top: 17%;
+     left: 2%;
+
+}
+
+
+#point_perjeta{
+    position: absolute;
+    background: url("assets/perjeta/2-01.png") no-repeat;
+    background-size:cover;
+     /* border:1px solid violet;  */
+     height: 45%;
+     width: 35%;
+     top: 57%;
+     left: 41%;
+}
+
+      /*********fleur perjeta***********/
+      .cercle_perjeta_annim{
+        -webkit-animation: appariton 1.6s  linear;  
+    
+        /* animation-delay:2s;  
+        -webkit-animation-delay:2s;   */
+    }
+
+    
+    @keyframes pet1_perjeta {
+        0% {
+
+          -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+          clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+        }
+        100% {
+
+          clip-path: polygon(0 0, 100% 0, 100% 99%, 0 100%);
+          -webkit-clip-path: polygon(0 0, 100% 0, 100% 99%, 0 100%);
+
+        }
+      }
+      
+
+      @-webkit-keyframes pet1_perjeta  {
+        0% {
+
+          clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+          -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+        }
+        100% {
+
+          clip-path: polygon(0 0, 100% 0, 100% 99%, 0 100%);
+          -webkit-clip-path: polygon(0 0, 100% 0, 100% 99%, 0 100%);
+
+        }
+      }
+    .petale1_perjeta_annim{
+        -webkit-animation: pet1_perjeta  1.7s linear ;
+        animation: pet1_perjeta  1.7s linear; 
+    }
+
+
+
+    @keyframes pet2_perjeta {
+        0% {
+
+          width: 0%;
+
+        }
+        100% {
+
+          width: 74%;
+
+        }
+      }
+      
+
+      @-webkit-keyframes pet2_perjeta  {
+        0% {
+
+                  width: 0%;
+
+        }
+        100% {
+
+                  width: 74%;
+
+        }
+      }
+    .petale2_perjeta_annim{
+        -webkit-animation: pet2_perjeta  2s linear;
+        animation: pet2_perjeta  2s linear;
+    }
+
+    @keyframes poin_perjeta {
+        0% {
+          clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+          -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+        }
+        100% {
+
+          clip-path: polygon(0 0, 100% 0, 100% 99%, 0 100%);
+          -webkit-clip-path: polygon(0 0, 100% 0, 100% 99%, 0 100%);
+
+        }
+      }
+      
+      @-webkit-keyframes poin_perjeta  {
+        0% {
+
+          clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+          -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+        }
+        100% {
+
+          clip-path: polygon(0 0, 100% 0, 100% 99%, 0 100%);
+          -webkit-clip-path: polygon(0 0, 100% 0, 100% 99%, 0 100%);
+
+        }
+      }
+    .point_perjeta_annim{
+        -webkit-animation: poin_perjeta 1.8s linear;
+        animation: poin_perjeta  1.8s linear;
+    }
+
+
+/********fleur neosphere*******/
+#neosphere {    
+    position: relative;
+    /* border: 1px solid orangered; */
+    height: 32%;
+    width: 30%;
+    top: -37%;
+    left: 53%;
+}
+#point_neosphere{
+    position: absolute;
+    background: url("assets/neosphere/4-01.png") no-repeat;
+    background-size:cover;
+     /* border:1px solid coral;  */
+     height: 62%;
+     width: 29%;
+     top: -2%;
+     left: 22%;
+}
+
+
+
+#cercle_neosphere{
+    position: absolute;
+    background: url("assets/neosphere/cercle-01.png") no-repeat center center ;
+    background-size:cover;
+     /* border:1px solid teal;  */
+     height: 65%;
+     width: 71%;
+     top: 16%;
+     left: 13%;
+
+}
+
+#petale1_neosphere{
+    position: absolute;
+    background: url("assets/neosphere/1-01.png") no-repeat;
+    background-size:cover;
+     /* border:1px solid coral;  */
+     height: 56%;
+     width: 45%;
+     top: 8%;
+     left: 32%;
+    }
+
+#petale2_neosphere{
+    position: absolute;
+    background: url("assets/neosphere/2-01.png") no-repeat;
+    background-size:cover;
+     /* border:1px solid coral;  */
+     height: 59%;
+     width: 34.2%;
+     top: 22%;
+     left: 64%;
+}
+
+#petale3_neosphere{
+    position: relative;
+    background: url("assets/neosphere/3-01.png") no-repeat right;
+    background-size:cover;
+     /* border:1px solid coral;  */
+     height: 36%;
+     width: 88%;
+     top: 64%;
+     left: -10%;
+     float: right;
+}
+    
+        /*****fleur neosphere******/
+        .cercle_neosphere_annim{
+            -webkit-animation: appariton 2.2s  linear; 
+            animation: appariton 2.2s  linear;  
+     
+        }
+    
+    
+        @keyframes pet-1_neo {
+            0% {
+              clip-path: polygon(50% 100%, 100% 100%, 100% 100%, 50% 100%, 0 100%, 0 100%);
+    
+            }
+            50% {
+    
+              clip-path: polygon(49% 0, 49% 0, 100% 100%, 49% 100%, 0 100%, 0 0);
+    
+            }
+            100% {
+    
+              clip-path: polygon(49% 0, 100% 0, 100% 100%, 49% 100%, 0 100%, 0 0);
+    
+            }
+          }
+          
+          @-webkit-keyframes pet-1_neo {
+            0% {
+    
+              clip-path: polygon(50% 100%, 100% 100%, 100% 100%, 50% 100%, 0 100%, 0 100%);
+    
+            }
+            50% {
+    
+              clip-path: polygon(49% 0, 49% 0, 100% 100%, 49% 100%, 0 100%, 0 0);
+    
+            }
+            100% {
+    
+              clip-path: polygon(49% 0, 100% 0, 100% 100%, 49% 100%, 0 100%, 0 0);
+    
+            }
+          }
+        .petale1_neosphere_annim{
+            -webkit-animation: pet-1_neo 2s linear;
+                animation: pet-1_neo 2s linear ;
+        }
+    
+    
+        @keyframes pet-2_neo {
+            0% {
+              height: 0%;
+    
+            }
+            100% {
+    
+              height: 59%;
+    
+            }
+          }
+          
+          @-webkit-keyframes pet-2_neo {
+            0% {
+    
+                      height: 0%;
+    
+            }
+            100% {
+    
+                      height: 59%;
+    
+            }
+        }
+        .petale2_neosphere_annim{
+            -webkit-animation: pet-2_neo 2.1s linear;
+                    animation: pet-2_neo  2.1s linear;
+        }
+    
+        @keyframes pet3_neo {
+            0% {
+    
+              width: 0%;
+    
+            }
+            100% {
+    
+              width: 88%;
+    
+            }
+          }
+          
+    
+          @-webkit-keyframes pet3_neo  {
+            0% {
+    
+                      width: 0%;
+    
+            }
+            100% {
+    
+                      width: 88%;
+    
+            }
+          }
+    
+        .petale3_neosphere_annim{
+            -webkit-animation: pet3_neo 2.3s linear ;
+            animation: pet3_neo 2.3s linear; 
+        }
+    
+    
+        @keyframes poin_neosphere {
+          0% {
+
+            /* height: 0%; */
+            -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+            clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+
+  
+          }
+          100% {
+  
+            /* height: 62%; */
+            -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+            clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+          }
+          }
+          
+    
+          @-webkit-keyframes poin_neosphere {
+            0% {
+
+              /* height: 0%; */
+              -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+              clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+    
+            }
+            100% {
+    
+              /* height: 62%; */
+              -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+              clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+            }
+          }
+    
+        .point_neosphere_annim{
+            -webkit-animation: poin_neosphere  2.5s ;
+                animation: poin_neosphere 2.5s ;
+        }
+    
+
+/*********fleur aphinity************/
+#aphinity {    
+    position: relative;
+    /* border: 1px solid orangered; */
+    height: 39%;
+    width: 25%;
+    top: -33%;
+    left: 70%;
+}
+#petale1_aphinity{
+    position: absolute;
+    background: url("assets/aphinity/4-01.png") no-repeat;
+    background-size:cover;
+    /* border: 1px solid teal; */
+    height: 32%;
+    width: 30%;
+    top: 27%;
+    left: 6%;
+}
+
+
+#cercle_aphinity{
+    position: absolute;
+    background: url("assets/aphinity/cercle-01.png") no-repeat;
+    background-size:cover;
+    /* border: 1px solid teal; */
+    height: 64%;
+    width: 71%;
+    top: 22%;
+    left: 27%;
+
+
+
+}
+
+
+#petale2_aphinity{
+    position: relative;
+    background: url("assets/aphinity/3-01.png") no-repeat right;
+    background-size:cover;
+    /* border: 1px solid teal; */
+    height: 50%;
+    width: 89%;
+    top: -2%;
+    left: -7%;
+    float: right;
+}
+
+#petale3_aphinity{
+    position: absolute;
+    background: url("assets/aphinity/2-01.png") no-repeat;
+    background-size:cover;
+    height: 48%;
+    width: 38%;
+    top: 49%;
+    left: 56%;
+    transform: rotate(18deg);
+}
+
+#point_aphinity{
+    position: absolute;
+    background: url("assets/aphinity/1-01.png") no-repeat;
+    background-size: contain;
+    /* border: 1px solid teal; */
+    height: 36%;
+    width: 58%;
+    top: 60%;
+    left: 9%;
+    transform: rotate(10deg);
+}
+
+
+        /*****fleur aphiniity******/
+
+        .cercle_aphinity_annim{
+            -webkit-animation: appariton 3.2s  linear; 
+            animation: appariton 3.2s  linear; 
+         
+        }
+
+        @keyframes pet2_aph {
+            0% {
+    
+              width: 0%;
+    
+            }
+            100% {
+    
+              width: 89%;
+    
+            }
+          }
+          
+    
+          @-webkit-keyframes pet2_aph {
+            0% {
+    
+                      width: 0%;
+    
+            }
+            100% {
+    
+                      width: 89%;
+    
+            }
+          }
+        .petale2_aphinity_annim{
+            -webkit-animation: pet2_aph 2s linear ;
+            animation: pet2_aph 2s linear;
+        }
+
+
+
+
+        @keyframes pet3_aph {
+            0% {
+    
+              clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+              -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+            }
+            100% {
+    
+              clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+              -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+            }
+          }
+          
+    
+          @-webkit-keyframes pet3_aph {
+            0% {
+    
+              clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+              -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+            }
+            100% {
+    
+              clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+              -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+            }
+          }
+        .petale3_aphinity_annim{
+            -webkit-animation: pet3_aph 2.1s linear;
+                    animation: pet3_aph 2.1s linear;
+        }
+
+        @-webkit-keyframes scale-up-br {
+          0% {
+            clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+            -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+
+  
+          }
+          100% {
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+  
+          }
+        }
+        @keyframes scale-up-br {
+          0% {
+            clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+            -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+
+  
+          }
+          100% {
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+  
+          }
+        }
+    .petale1_aphinity_annim{
+        -webkit-animation: scale-up-br 2.2s linear ;
+        animation: scale-up-br 2.2s linear ;
+
+    }
+
+    @keyframes poin_aph {
+        0% {
+
+          clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+          -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+        }
+        100% {
+
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+          -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+        }
+      }
+      
+
+      @-webkit-keyframes poin_aph {
+        0% {
+
+          clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+          -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+        }
+        100% {
+
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+          -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+        }
+      }
+    .point_aphinity_annim{
+        -webkit-animation: poin_aph  2.3s linear ;
+        animation: poin_aph  2.2s linear ;
+
+    }
+
+
+
+/************Annimation********************/
+
+
+
+
+      @-webkit-keyframes scale-up-hor-left {
+        0% {
+          /* -webkit-transform: scaleX(0.4);
+                  transform: scaleX(0.4);
+          -webkit-transform-origin: 0% 0%;
+                  transform-origin: 0% 0%;
+                  opacity: 0; */
+                  width: 0%;
+
+        }
+        100% {
+          /* -webkit-transform: scaleX(1);
+                  transform: scaleX(1);
+          -webkit-transform-origin: 0% 0%;
+                  transform-origin: 0% 0%;
+                  opacity: 1; */
+                  width: 53%;
+
+        }
+      }
+      @keyframes scale-up-hor-left {
+        0% {
+          /* -webkit-transform: scaleX(0.4);
+                  transform: scaleX(0.4);
+          -webkit-transform-origin: 0% 0%;
+                  transform-origin: 0% 0%;
+                  opacity: 0; */
+                  width: 0%;
+
+        }
+        100% {
+          /* -webkit-transform: scaleX(1);
+                  transform: scaleX(1);
+          -webkit-transform-origin: 0% 0%;
+                  transform-origin: 0% 0%;
+                  opacity: 1; */
+                  width: 53%;
+
+
+        }
+      }
+
+      
+      @-webkit-keyframes scale-up-left {
+        0% {
+          -webkit-transform: scale(0.5);
+                  transform: scale(0.5);
+          -webkit-transform-origin: 0% 50%;
+                  transform-origin: 0% 50%;
+                  opacity:0;
+
+        }
+        100% {
+          -webkit-transform: scale(1);
+                  transform: scale(1);
+          -webkit-transform-origin: 0% 50%;
+                  transform-origin: 0% 50%;
+                  opacity:1;
+
+        }
+      }
+      @keyframes scale-up-left {
+        0% {
+          -webkit-transform: scale(0.5);
+                  transform: scale(0.5);
+          -webkit-transform-origin: 0% 50%;
+                  transform-origin: 0% 50%;
+                  opacity:0;
+
+        }
+        100% {
+          -webkit-transform: scale(1);
+                  transform: scale(1);
+          -webkit-transform-origin: 0% 50%;
+                  transform-origin: 0% 50%;
+                  opacity:1;
+
+
+        }
+      }
+      @-webkit-keyframes scale-up-ver-bottom {
+        0% {
+          -webkit-transform: scaleY(0.4);
+                  transform: scaleY(0.4);
+          -webkit-transform-origin: 0% 100%;
+                  transform-origin: 0% 100%;
+                  opacity:0;
+        }
+        100% {
+          -webkit-transform: scaleY(1);
+                  transform: scaleY(1);
+          -webkit-transform-origin: 0% 100%;
+                  transform-origin: 0% 100%;
+                  opacity: 1;
+
+        }
+      }
+      @keyframes scale-up-ver-bottom {
+        0% {
+          -webkit-transform: scaleY(0.4);
+                  transform: scaleY(0.4);
+          -webkit-transform-origin: 0% 100%;
+                  transform-origin: 0% 100%;
+                  opacity: 0;
+
+        }
+        100% {
+          -webkit-transform: scaleY(1);
+                  transform: scaleY(1);
+          -webkit-transform-origin: 0% 100%;
+                  transform-origin: 0% 100%;
+                  opacity: 1;
+
+        }
+      }
+      @-webkit-keyframes scale-up-tr {
+        0% {
+          -webkit-transform: scale(0.5);
+                  transform: scale(0.5);
+          -webkit-transform-origin: 100% 0%;
+                  transform-origin: 100% 0%;
+                  opacity: 0;
+
+        }
+        100% {
+          -webkit-transform: scale(1);
+                  transform: scale(1);
+          -webkit-transform-origin: 100% 0%;
+                  transform-origin: 100% 0%;
+                  opacity: 1;
+
+        }
+      }
+      @keyframes scale-up-tr {
+        0% {
+          -webkit-transform: scale(0.5);
+                  transform: scale(0.5);
+          -webkit-transform-origin: 100% 0%;
+                  transform-origin: 100% 0%;
+                  opacity: 0;
+
+        }
+        100% {
+          -webkit-transform: scale(1);
+                  transform: scale(1);
+          -webkit-transform-origin: 100% 0%;
+                  transform-origin: 100% 0%;
+                  opacity: 1;
+
+        }
+      }
+      @-webkit-keyframes scale-up-ver-top {
+        0% {
+          -webkit-transform: scaleY(0.4);
+                  transform: scaleY(0.4);
+          -webkit-transform-origin: 100% 0%;
+                  transform-origin: 100% 0%;
+                  opacity: 0;
+
+        }
+        100% {
+          -webkit-transform: scaleY(1);
+                  transform: scaleY(1);
+          -webkit-transform-origin: 100% 0%;
+                  transform-origin: 100% 0%;
+                  opacity: 1;
+
+        }
+      }
+      @keyframes scale-up-ver-top {
+        0% {
+          -webkit-transform: scaleY(0.4);
+                  transform: scaleY(0.4);
+          -webkit-transform-origin: 100% 0%;
+                  transform-origin: 100% 0%;
+                  opacity: 0;
+
+        }
+        100% {
+          -webkit-transform: scaleY(1);
+                  transform: scaleY(1);
+          -webkit-transform-origin: 100% 0%;
+                  transform-origin: 100% 0%;
+                  opacity: 1;
+
+        }
+      }
+
+
+ 
+
+
+

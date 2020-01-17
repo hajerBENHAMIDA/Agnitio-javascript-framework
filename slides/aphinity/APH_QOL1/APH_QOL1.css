@@ -1,0 +1,56 @@
+#APH_QOL1 {}
+
+#aph-QOL-warpper {
+    height: 90%;
+    width: 80%;
+    margin: 0 auto ;
+}
+
+#aph-QOL-title{
+    width: 38%;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    height: 10%;
+    background: url(assets/title.png) no-repeat center center ;
+    background-size: contain;
+}
+
+#aph-QOL-graph{
+    position: relative;
+    width: 100%;
+    height: 60%;
+    background: url(assets/graph.png) no-repeat center center ;
+    background-size: contain;
+}
+
+#aph-QOL-courbe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(assets/courbe.png) no-repeat center center  ;
+    background-size: contain;
+    -webkit-clip-path: polygon(208px 132px, 80.48% 127px, 79.96% 50.94%, 202px 51.19%);
+    clip-path: polygon(208px 132px, 80.48% 127px, 79.96% 50.94%, 202px 51.19%);
+
+
+}
+
+#aph-QOL-bloc-text{
+    width: 100%;
+    margin: 0 auto;
+    height: 30%;
+    background: url(assets/bloc_text.png) no-repeat center center ;
+    background-size: contain;
+
+
+}
+#aph-qol-overlay{
+    position: relative;
+    height: 0% ;
+    margin: 0 auto ;
+    width: 100%;
+    padding-top: 48.13178490280232% ;
+    background: url(assets/popup/popup-01.png) no-repeat;
+    background-size: contain;
+    margin-top: 12%;
+}

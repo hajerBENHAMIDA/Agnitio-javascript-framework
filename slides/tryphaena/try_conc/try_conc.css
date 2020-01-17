@@ -1,0 +1,74 @@
+#try_conc_warpper{
+    position: relative;
+    height: 75%;
+    width: 90%;
+    top: 13%;
+    left: 10%;
+     /* border: 1px solid red;  */
+}
+#titre_tryphaena_s7{
+    position: relative;
+    background: url('assets/1-03.png') no-repeat;
+    background-size: contain;
+    /* border: 1px red solid; */
+    width: 56%;
+    height: 10%;
+    left: 16%;
+}
+#soustitre_tryphaena_s7{
+    position: relative;
+    background: url('assets/1-02.png') no-repeat center center;
+    background-size: contain;
+    /* border: 1px green solid; */
+    width: 48%;
+    height: 11%;
+    left: 19%;
+}
+#texte_tryphaena_s7{
+    position: relative;
+    background: url('assets/1-01.png') no-repeat;
+    background-size: contain;
+    /* border: 1px green solid; */
+    width: 90%;
+    height: 80%;
+}
+#gif1_tryphaena_s7{
+    position: relative;
+    background: url('assets/picto1.gif') no-repeat ;
+    background-size: contain;
+    height: 15%;
+    width: 9%;
+    top: 9%;
+    left: 4%;
+    /* border: 1px solid firebrick; */
+}
+#gif2_tryphaena_s7{
+    position: relative;
+    background: url('assets/picto2.gif') no-repeat ;
+    background-size: contain;
+    height: 15%;
+    width: 9%;
+    top: 16%;
+    left: 4%;
+    /* border: 1px solid firebrick; */
+}
+#gif3_tryphaena_s7{
+    position: relative;
+    background: url('assets/picto3.gif') no-repeat ;
+    background-size: contain;
+    height: 15%;
+    width: 9%;
+    top: 22%;
+    left: 4%;
+    /* border: 1px solid firebrick; */
+}
+#gif4_tryphaena_s7{    position: relative;
+    background: url('assets/picto4.gif') no-repeat ;
+    background-size: contain;
+    height: 15%;
+    width: 9%;
+    top: 28%;
+    left: 4%;
+    /* border: 1px solid firebrick; */
+}
+

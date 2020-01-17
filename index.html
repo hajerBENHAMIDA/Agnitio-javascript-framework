@@ -1,0 +1,122 @@
+
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Rainmaker - New Content</title>
+
+    <meta name="description" content="Presentation">
+    <meta name="author" content="">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Presentation build - BUILD FILE -->
+    <link rel="stylesheet" href="build/presentation/styles.css">
+    <link rel="stylesheet" href="custom/footer/footer.css">
+    <link rel="stylesheet" href="custom/burger/burger.css">
+    <link rel="stylesheet" href="custom/animation.css">
+     <style>
+       *{
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+       }
+     </style>
+  </head>
+
+  <body> 
+    <div id="presentation" class="accelerator linear">
+      <section id="slideshows" class="slideshows slides">
+          <nav data-module="ag-auto-menu" placement="top"></nav>
+          <div id="footer"></div>
+
+          <div id="overlay-demo" data-module="ag-overlay"></div>
+          <div id="overlay" data-module="ag-overlay"></div>
+          <div class="pause-overlay" ></div>
+          
+      </section>
+
+    </div>
+    <!-- Presentation build - BUILD FILE -->
+     <script src="build/presentation/scripts.js"></script>
+     <script src="accelerator/lib/jquery.min.js"></script>
+     <script src="custom/footer/footer.js"></script> 
+     <script src="custom/functions.js"></script>
+
+     <script type="text/javascript">
+      let imgs = new Array();
+      function notify_complete()
+      {
+        alert("ok");
+      }
+    
+      function Preloadimg(url){
+        var my_image = new Image();
+        my_image.onload = notify_complete();
+        my_image.src = url ;
+        return my_image ;
+      }
+      function PreloadimgAll() {
+        
+      }
+    
+      let imgList = { 
+        url : [
+        "slides/aphinity/APH_GROUP2/assets/popup/popup-01.png",
+      ]
+      } ;
+    
+    
+    
+      if ('DeviceOrientationEvent' in window) {
+      window.addEventListener('deviceorientation', deviceOrientationHandler, false);
+    } else {
+      document.getElementById('logoContainer').innerText = 'Device Orientation API not supported.';
+    }
+    
+    
+    function deviceOrientationHandler (eventData) {
+      var tiltLR = eventData.gamma;
+      var tiltFB = eventData.beta;
+      var dir = eventData.alpha;
+      
+      if(tiltFB> 10 ) {
+        tiltFB = 10;
+      }else if(tiltFB < -10) {
+        tiltFB = -10 ;
+      }
+      
+      var rot = 'rotate('+ tiltFB + 'deg)' ;
+      $(".icon").each(function(){
+          $(this).css({ 'transform': rot })}); 
+    }
+    
+      </script>
+      <style>
+          .graph-layer {
+            height: 100%;
+            width: 100%;
+            position: relative ;
+            background: white ;
+            float: right ;
+          }
+          .graph-layer-bg {
+            height: 100%;
+            width: 100%;
+            position: relative ;
+            background: url(background-01.png);
+            background-size: cover ;
+          }
+          body::after{
+            position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+            content: url(background-01.png);
+          }
+      </style>
+  </body>
+</html>

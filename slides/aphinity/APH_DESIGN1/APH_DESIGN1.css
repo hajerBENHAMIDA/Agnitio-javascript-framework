@@ -1,0 +1,160 @@
+#APH_DESIGN1 {}
+
+#aph-des1-warpper {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto ;
+}
+
+#aph-des1-bloc-text{
+    width: 100%;
+    height: 30%;
+    background: url(assets/1-01.png) no-repeat center center;
+    background-size: contain ;
+}
+
+
+#aph-des1-graph {
+    width: 89%;
+    height: 53%;
+    margin: 0 auto ;
+    perspective: 1000px;
+    -webkit-perspective: 1000px ;
+}
+
+#aph-des1-elem1 {
+    z-index: 1;
+    position: relative;
+    right: -8%;
+    height: 90%;
+    width: 12%;
+    background: url(assets/1-03.png) no-repeat top right;
+    background-size: contain ;
+    float: left ;
+    z-index: +2;
+}
+/* center  */
+#aph-des1-center {
+    height: 100%;
+    width: 78%;
+    float: left ;
+}
+
+/*  left */
+#aph-des1-center-left {
+    position: relative;
+    right: -3.5%;
+    height: 100%;
+    width: 50%;
+    float: left ;
+    z-index: 1;
+    perspective: 1000px;
+    -webkit-perspective: 1000px ;
+}
+#aph-des1-elem2 {
+    position: relative;
+    right: -7.5%;
+    height: 90%;
+    width: 50%;
+    background: url(assets/1-02.png) no-repeat left center;
+    background-size: contain ;
+    float: left ;
+    z-index: 1;
+}
+
+#aph-des1-elem3{
+    height: 90% ;
+    width: 50%;
+    background: url(assets/1-04.png) no-repeat left center;
+    background-size: contain ;
+    float: right ;
+}
+#aph-des1-arrow1 {
+    
+    height: 5% ;
+    width: 82%;
+    background: url(assets/1-09-02.png) no-repeat left bottom;
+    clear: both ;
+    background-size: contain ;
+    position: relative;
+    left: 7%;
+
+
+}
+#aph-des1-graph-text1 {
+    height: 6.8% ;
+    width: 90%;
+    background: url(assets/1-09-01.png) no-repeat center top;
+    background-size: contain ;
+    position: relative;
+    left: 5%;
+}
+/* end left */
+
+
+/* right */
+#aph-des1-center-right {
+    height: 100%;
+    width: 40%;
+    float: left ;
+    perspective: 1000px;
+    -webkit-perspective: 1000px ;
+    
+}
+#aph-des1-elem4 {
+    height: 45%;
+    width: 100%;
+    background: url(assets/1-06.png) no-repeat left top;
+    background-size: contain ;
+    z-index: -1;
+   
+}
+
+#aph-des1-elem5{
+    height: 45% ;
+    width: 100%;
+    background: url(assets/1-07.png) no-repeat left bottom;
+    background-size: contain ;
+    z-index: -1;
+    
+}
+#aph-des1-arrow2 {
+    height: 5% ;
+    width: 100%;
+    background: url(assets/1-09-02.png) no-repeat left bottom;
+    clear: both ;
+    background-size: contain ;
+}
+
+#aph-des1-graph-text2{
+    height: 8% ;
+    width: 100%;
+    background: url(assets/1-09-03.png) no-repeat left center;
+    background-size: contain ;
+}
+
+/* end right  */
+/*  end center  */
+
+
+#aph-des1-elem6 {
+    position: relative;
+    right: 7%;
+    height: 90%;
+    width: 10%;
+    background: url(assets/1-05.png) no-repeat top left;
+    background-size: contain ;
+    float: left ;
+}
+
+
+#aph-des1-overlay{
+    position: relative;
+    height: 0% ;
+    width: 100%;
+    padding-top: 63.994% ;
+    background: url(assets/popup/1-01.png) no-repeat;
+    background-size: contain;
+    margin-top: 5%;
+
+}

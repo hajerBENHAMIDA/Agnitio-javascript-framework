@@ -1,0 +1,1126 @@
+{
+    "slides": {
+        "welcome": {
+            "name": "Welcome",
+            "files": {
+                "templates": [
+                    "slides/welcome/welcome.html"
+                ],
+                "styles": [
+                    "slides/welcome/style.css"
+                ],
+                "scripts": [
+                    "slides/welcome/welcome.js"
+                ]
+            },
+            "type": "slide"
+        },
+        "opening": {
+            "id": "opening",
+            "name": "Page de garde",
+            "files": {
+                "templates": [
+                    "slides/opening/opening.html"
+                ],
+                "scripts": [
+                    "slides/opening/opening.js"
+                ],
+                "styles": [
+                    "slides/opening/opening.css"
+                ]
+            }
+        },
+        "Home-4-RUB": {
+            "id": "Home-4-RUB",
+            "name": "Menu avec 4 rubriques",
+            "files": {
+                "templates": [
+                    "slides/Home-4-RUB/Home-4-RUB.html"
+                ],
+                "scripts": [
+                    "slides/Home-4-RUB/Home-4-RUB.js"
+                ],
+                "styles": [
+                    "slides/Home-4-RUB/Home-4-RUB.css"
+                ]
+            }
+        },
+        "PER_EPIDEMIO1": {
+            "id": "PER_EPIDEMIO1",
+            "name": "Epidémiologie 1",
+            "files": {
+                "templates": [
+                    "slides/perjeta/PER_EPIDEMIO1/PER_EPIDEMIO1.html"
+                ],
+                "scripts": [
+                    "slides/perjeta/PER_EPIDEMIO1/PER_EPIDEMIO1.js"
+                ],
+                "styles": [
+                    "slides/perjeta/PER_EPIDEMIO1/PER_EPIDEMIO1.css"
+                ]
+            }
+        },
+        "PER_EPIDEMIO2": {
+            "id": "PER_EPIDEMIO2",
+            "name": "Epidémiologie 2",
+            "files": {
+                "templates": [
+                    "slides/perjeta/PER_EPIDEMIO2/PER_EPIDEMIO2.html"
+                ],
+                "scripts": [
+                    "slides/perjeta/PER_EPIDEMIO2/PER_EPIDEMIO2.js"
+                ],
+                "styles": [
+                    "slides/perjeta/PER_EPIDEMIO2/PER_EPIDEMIO2.css"
+                ]
+            }
+        },
+        "PER_EPIDEMIO3": {
+            "id": "PER_EPIDEMIO3",
+            "name": "Epidémiologie 3",
+            "files": {
+                "templates": [
+                    "slides/perjeta/PER_EPIDEMIO3/PER_EPIDEMIO3.html"
+                ],
+                "scripts": [
+                    "slides/perjeta/PER_EPIDEMIO3/PER_EPIDEMIO3.js"
+                ],
+                "styles": [
+                    "slides/perjeta/PER_EPIDEMIO3/PER_EPIDEMIO3.css"
+                ]
+            }
+        },
+        "PER_EPIDEMIO4": {
+            "id": "PER_EPIDEMIO4",
+            "name": "Epidémiologie 4",
+            "files": {
+                "templates": [
+                    "slides/perjeta/PER_EPIDEMIO4/PER_EPIDEMIO4.html"
+                ],
+                "scripts": [
+                    "slides/perjeta/PER_EPIDEMIO4/PER_EPIDEMIO4.js"
+                ],
+                "styles": [
+                    "slides/perjeta/PER_EPIDEMIO4/PER_EPIDEMIO4.css"
+                ]
+            }
+        },
+        "PER_EPIDEMIO5": {
+            "id": "PER_EPIDEMIO5",
+            "name": "Epidémiologie 5",
+            "files": {
+                "templates": [
+                    "slides/perjeta/PER_EPIDEMIO5/PER_EPIDEMIO5.html"
+                ],
+                "scripts": [
+                    "slides/perjeta/PER_EPIDEMIO5/PER_EPIDEMIO5.js"
+                ],
+                "styles": [
+                    "slides/perjeta/PER_EPIDEMIO5/PER_EPIDEMIO5.css"
+                ]
+            }
+        },
+        "PER_EPIDEMIO6": {
+            "id": "PER_EPIDEMIO6",
+            "name": "Epidémiologie 6",
+            "files": {
+                "templates": [
+                    "slides/perjeta/PER_EPIDEMIO6/PER_EPIDEMIO6.html"
+                ],
+                "scripts": [
+                    "slides/perjeta/PER_EPIDEMIO6/PER_EPIDEMIO6.js"
+                ],
+                "styles": [
+                    "slides/perjeta/PER_EPIDEMIO6/PER_EPIDEMIO6.css"
+                ]
+            }
+        },
+        "PER_CLINICAL1": {
+            "id": "PER_CLINICAL1",
+            "name": "Essais cliniques 1",
+            "files": {
+                "templates": [
+                    "slides/perjeta/PER_CLINICAL1/PER_CLINICAL1.html"
+                ],
+                "scripts": [
+                    "slides/perjeta/PER_CLINICAL1/PER_CLINICAL1.js"
+                ],
+                "styles": [
+                    "slides/perjeta/PER_CLINICAL1/PER_CLINICAL1.css"
+                ]
+            }
+        },
+        "PER_CLINICAL2": {
+            "id": "PER_CLINICAL2",
+            "name": "Essais cliniques 2",
+            "files": {
+                "templates": [
+                    "slides/perjeta/PER_CLINICAL2/PER_CLINICAL2.html"
+                ],
+                "scripts": [
+                    "slides/perjeta/PER_CLINICAL2/PER_CLINICAL2.js"
+                ],
+                "styles": [
+                    "slides/perjeta/PER_CLINICAL2/PER_CLINICAL2.css"
+                ]
+            }
+        },
+        "PER_PRAC1": {
+            "id": "PER_PRAC1",
+            "name": "En pratique 1",
+            "files": {
+                "templates": [
+                    "slides/perjeta/PER_PRAC1/PER_PRAC1.html"
+                ],
+                "scripts": [
+                    "slides/perjeta/PER_PRAC1/PER_PRAC1.js"
+                ],
+                "styles": [
+                    "slides/perjeta/PER_PRAC1/PER_PRAC1.css"
+                ]
+            }
+        },
+        "PER_PRAC2": {
+            "id": "PER_PRAC2",
+            "name": "En pratique 2",
+            "files": {
+                "templates": [
+                    "slides/perjeta/PER_PRAC2/PER_PRAC2.html"
+                ],
+                "scripts": [
+                    "slides/perjeta/PER_PRAC2/PER_PRAC2.js"
+                ],
+                "styles": [
+                    "slides/perjeta/PER_PRAC2/PER_PRAC2.css"
+                ]
+            }
+        },
+        "PER_PRAC3": {
+            "id": "PER_PRAC3",
+            "name": "En pratique 3",
+            "files": {
+                "templates": [
+                    "slides/perjeta/PER_PRAC3/PER_PRAC3.html"
+                ],
+                "scripts": [
+                    "slides/perjeta/PER_PRAC3/PER_PRAC3.js"
+                ],
+                "styles": [
+                    "slides/perjeta/PER_PRAC3/PER_PRAC3.css"
+                ]
+            }
+        },
+        "PER_CONC1": {
+            "id": "PER_CONC1",
+            "name": "Conclusion 1",
+            "files": {
+                "templates": [
+                    "slides/perjeta/PER_CONC1/PER_CONC1.html"
+                ],
+                "scripts": [
+                    "slides/perjeta/PER_CONC1/PER_CONC1.js"
+                ],
+                "styles": [
+                    "slides/perjeta/PER_CONC1/PER_CONC1.css"
+                ]
+            }
+        },
+        "PER_CONC2": {
+            "id": "PER_CONC2",
+            "name": "Conclusion 2",
+            "files": {
+                "templates": [
+                    "slides/perjeta/PER_CONC2/PER_CONC2.html"
+                ],
+                "scripts": [
+                    "slides/perjeta/PER_CONC2/PER_CONC2.js"
+                ],
+                "styles": [
+                    "slides/perjeta/PER_CONC2/PER_CONC2.css"
+                ]
+            }
+        },
+        "PER_CONC3": {
+            "id": "PER_CONC3",
+            "name": "Conclusion 3",
+            "files": {
+                "templates": [
+                    "slides/perjeta/PER_CONC3/PER_CONC3.html"
+                ],
+                "scripts": [
+                    "slides/perjeta/PER_CONC3/PER_CONC3.js"
+                ],
+                "styles": [
+                    "slides/perjeta/PER_CONC3/PER_CONC3.css"
+                ]
+            }
+        },
+        "NEO_DESIGN1": {
+            "id": "NEO_DESIGN1",
+            "name": "Design de l’étude 1",
+            "files": {
+                "templates": [
+                    "slides/neosphere//NEO_DESIGN1/NEO_DESIGN1.html"
+                ],
+                "scripts": [
+                    "slides/neosphere//NEO_DESIGN1/NEO_DESIGN1.js"
+                ],
+                "styles": [
+                    "slides/neosphere//NEO_DESIGN1/NEO_DESIGN1.css"
+                ]
+            }
+        },
+        "NEO_DESIGN2": {
+            "id": "NEO_DESIGN2",
+            "name": "Design de l’étude 2",
+            "files": {
+                "templates": [
+                    "slides/neosphere//NEO_DESIGN2/NEO_DESIGN2.html"
+                ],
+                "scripts": [
+                    "slides/neosphere//NEO_DESIGN2/NEO_DESIGN2.js"
+                ],
+                "styles": [
+                    "slides/neosphere//NEO_DESIGN2/NEO_DESIGN2.css"
+                ]
+            }
+        },
+        "NEO_EFFICACY1": {
+            "id": "NEO_EFFICACY1",
+            "name": "Efficacité 1",
+            "files": {
+                "templates": [
+                    "slides/neosphere//NEO_EFFICACY1/NEO_EFFICACY1.html"
+                ],
+                "scripts": [
+                    "slides/neosphere//NEO_EFFICACY1/NEO_EFFICACY1.js"
+                ],
+                "styles": [
+                    "slides/neosphere//NEO_EFFICACY1/NEO_EFFICACY1.css"
+                ]
+            }
+        },
+        "NEO_EFFICACY2": {
+            "id": "NEO_EFFICACY2",
+            "name": "Efficacité 2",
+            "files": {
+                "templates": [
+                    "slides/neosphere//NEO_EFFICACY2/NEO_EFFICACY2.html"
+                ],
+                "scripts": [
+                    "slides/neosphere//NEO_EFFICACY2/NEO_EFFICACY2.js"
+                ],
+                "styles": [
+                    "slides/neosphere//NEO_EFFICACY2/NEO_EFFICACY2.css"
+                ]
+            }
+        },
+        "NEO_EFFICACY3": {
+            "id": "NEO_EFFICACY3",
+            "name": "Efficacité 3",
+            "files": {
+                "templates": [
+                    "slides/neosphere//NEO_EFFICACY3/NEO_EFFICACY3.html"
+                ],
+                "scripts": [
+                    "slides/neosphere//NEO_EFFICACY3/NEO_EFFICACY3.js"
+                ],
+                "styles": [
+                    "slides/neosphere//NEO_EFFICACY3/NEO_EFFICACY3.css"
+                ]
+            }
+        },
+        "NEO_EFFICACY4": {
+            "id": "NEO_EFFICACY4",
+            "name": "Efficacité 4",
+            "files": {
+                "templates": [
+                    "slides/neosphere//NEO_EFFICACY4/NEO_EFFICACY4.html"
+                ],
+                "scripts": [
+                    "slides/neosphere//NEO_EFFICACY4/NEO_EFFICACY4.js"
+                ],
+                "styles": [
+                    "slides/neosphere//NEO_EFFICACY4/NEO_EFFICACY4.css"
+                ]
+            }
+        },
+        "NEO_SAFETY1": {
+            "id": "NEO_SAFETY1",
+            "name": "Tolérance 1",
+            "files": {
+                "templates": [
+                    "slides/neosphere//NEO_SAFETY1/NEO_SAFETY1.html"
+                ],
+                "scripts": [
+                    "slides/neosphere//NEO_SAFETY1/NEO_SAFETY1.js"
+                ],
+                "styles": [
+                    "slides/neosphere//NEO_SAFETY1/NEO_SAFETY1.css"
+                ]
+            }
+        },
+        "NEO_SAFETY2": {
+            "id": "NEO_SAFETY2",
+            "name": "Tolérance 2",
+            "files": {
+                "templates": [
+                    "slides/neosphere//NEO_SAFETY2/NEO_SAFETY2.html"
+                ],
+                "scripts": [
+                    "slides/neosphere//NEO_SAFETY2/NEO_SAFETY2.js"
+                ],
+                "styles": [
+                    "slides/neosphere//NEO_SAFETY2/NEO_SAFETY2.css"
+                ]
+            }
+        },
+        "NEO_SAFETY3": {
+            "id": "NEO_SAFETY3",
+            "name": "Tolérance 3",
+            "files": {
+                "templates": [
+                    "slides/neosphere//NEO_SAFETY3/NEO_SAFETY3.html"
+                ],
+                "scripts": [
+                    "slides/neosphere//NEO_SAFETY3/NEO_SAFETY3.js"
+                ],
+                "styles": [
+                    "slides/neosphere//NEO_SAFETY3/NEO_SAFETY3.css"
+                ]
+            }
+        },
+        "NEO_CONC": {
+            "id": "NEO_CONC",
+            "name": "Conclusion",
+            "files": {
+                "templates": [
+                    "slides/neosphere//NEO_CONC/NEO_CONC.html"
+                ],
+                "scripts": [
+                    "slides/neosphere//NEO_CONC/NEO_CONC.js"
+                ],
+                "styles": [
+                    "slides/neosphere//NEO_CONC/NEO_CONC.css"
+                ]
+            }
+        },
+        "try_design1": {
+            "id": "try_design1",
+            "name": "Design de l'etude 1",
+            "files": {
+                "templates": [
+                    "slides/tryphaena/try_design1/try_design1.html"
+                ],
+                "scripts": [
+                    "slides/tryphaena/try_design1/try_design1.js"
+                ],
+                "styles": [
+                    "slides/tryphaena/try_design1/try_design1.css"
+                ]
+            }
+        },
+        "try_design2": {
+            "id": "try_design2",
+            "name": "Design de l'etude 2",
+            "files": {
+                "templates": [
+                    "slides/tryphaena/try_design2/try_design2.html"
+                ],
+                "scripts": [
+                    "slides/tryphaena/try_design2/try_design2.js"
+                ],
+                "styles": [
+                    "slides/tryphaena/try_design2/try_design2.css"
+                ]
+            }
+        },
+        "try_efficacy1": {
+            "id": "try_efficacy1",
+            "name": "Efficacité 1",
+            "files": {
+                "templates": [
+                    "slides/tryphaena/try_efficacy1/try_efficacy1.html"
+                ],
+                "scripts": [
+                    "slides/tryphaena/try_efficacy1/try_efficacy1.js"
+                ],
+                "styles": [
+                    "slides/tryphaena/try_efficacy1/try_efficacy1.css"
+                ]
+            }
+        },
+        "try_efficacy2": {
+            "id": "try_efficacy2",
+            "name": "Efficacité 2",
+            "files": {
+                "templates": [
+                    "slides/tryphaena/try_efficacy2/try_efficacy2.html"
+                ],
+                "scripts": [
+                    "slides/tryphaena/try_efficacy2/try_efficacy2.js"
+                ],
+                "styles": [
+                    "slides/tryphaena/try_efficacy2/try_efficacy2.css"
+                ]
+            }
+        },
+        "try_safety1": {
+            "id": "try_safety1",
+            "name": "Tolérance 1",
+            "files": {
+                "templates": [
+                    "slides/tryphaena/try_safety1/try_safety1.html"
+                ],
+                "scripts": [
+                    "slides/tryphaena/try_safety1/try_safety1.js"
+                ],
+                "styles": [
+                    "slides/tryphaena/try_safety1/try_safety1.css"
+                ]
+            }
+        },
+        "try_safety2": {
+            "id": "try_safety2",
+            "name": "Tolérance 2",
+            "files": {
+                "templates": [
+                    "slides/tryphaena/try_safety2/try_safety2.html"
+                ],
+                "scripts": [
+                    "slides/tryphaena/try_safety2/try_safety2.js"
+                ],
+                "styles": [
+                    "slides/tryphaena/try_safety2/try_safety2.css"
+                ]
+            }
+        },
+        "try_conc": {
+            "id": "try_conc",
+            "name": "Conclusion",
+            "files": {
+                "templates": [
+                    "slides/tryphaena/try_conc/try_conc.html"
+                ],
+                "scripts": [
+                    "slides/tryphaena/try_conc/try_conc.js"
+                ],
+                "styles": [
+                    "slides/tryphaena/try_conc/try_conc.css"
+                ]
+            }
+        },
+        "conc_popup1": {
+            "id": "conc_popup1",
+            "name": "conc_popup1",
+            "files": {
+                "templates": [
+                    "slides/tryphaena/conc_popup1/conc_popup1.html"
+                ],
+                "scripts": [
+                    "slides/tryphaena/conc_popup1/conc_popup1.js"
+                ],
+                "styles": [
+                    "slides/tryphaena/conc_popup1/conc_popup1.css"
+                ]
+            }
+        },
+        "APH_DESIGN1": {
+            "id": "APH_DESIGN1",
+            "name": "Design de l’étude 1",
+            "files": {
+                "templates": [
+                    "slides/aphinity/APH_DESIGN1/APH_DESIGN1.html"
+                ],
+                "scripts": [
+                    "slides/aphinity/APH_DESIGN1/APH_DESIGN1.js"
+                ],
+                "styles": [
+                    "slides/aphinity/APH_DESIGN1/APH_DESIGN1.css"
+                ]
+            }
+        },
+        "APH_DESIGN2": {
+            "id": "APH_DESIGN2",
+            "name": "Design de l’étude 2",
+            "files": {
+                "templates": [
+                    "slides/aphinity/APH_DESIGN2/APH_DESIGN2.html"
+                ],
+                "scripts": [
+                    "slides/aphinity/APH_DESIGN2/APH_DESIGN2.js"
+                ],
+                "styles": [
+                    "slides/aphinity/APH_DESIGN2/APH_DESIGN2.css"
+                ]
+            }
+        },
+        "APH_DESIGN3": {
+            "id": "APH_DESIGN3",
+            "name": "Design de l’étude 3",
+            "files": {
+                "templates": [
+                    "slides/aphinity/APH_DESIGN3/APH_DESIGN3.html"
+                ],
+                "scripts": [
+                    "slides/aphinity/APH_DESIGN3/APH_DESIGN3.js"
+                ],
+                "styles": [
+                    "slides/aphinity/APH_DESIGN3/APH_DESIGN3.css"
+                ]
+            }
+        },
+        "APH_EFF1": {
+            "id": "APH_EFF1",
+            "name": "Efficacité 1",
+            "files": {
+                "templates": [
+                    "slides/aphinity/APH_EFF1/APH_EFF1.html"
+                ],
+                "scripts": [
+                    "slides/aphinity/APH_EFF1/APH_EFF1.js"
+                ],
+                "styles": [
+                    "slides/aphinity/APH_EFF1/APH_EFF1.css"
+                ]
+            }
+        },
+        "APH_EFF2": {
+            "id": "APH_EFF2",
+            "name": "Efficacité 2",
+            "files": {
+                "templates": [
+                    "slides/aphinity/APH_EFF2/APH_EFF2.html"
+                ],
+                "scripts": [
+                    "slides/aphinity/APH_EFF2/APH_EFF2.js"
+                ],
+                "styles": [
+                    "slides/aphinity/APH_EFF2/APH_EFF2.css"
+                ]
+            }
+        },
+        "APH_GROUP1": {
+            "id": "APH_GROUP1",
+            "name": "Analyse de sous-groupe 1",
+            "files": {
+                "templates": [
+                    "slides/aphinity/APH_GROUP1/APH_GROUP1.html"
+                ],
+                "scripts": [
+                    "slides/aphinity/APH_GROUP1/APH_GROUP1.js"
+                ],
+                "styles": [
+                    "slides/aphinity/APH_GROUP1/APH_GROUP1.css"
+                ]
+            }
+        },
+        "APH_GROUP2": {
+            "id": "APH_GROUP2",
+            "name": "Analyse de sous-groupe 2",
+            "files": {
+                "templates": [
+                    "slides/aphinity/APH_GROUP2/APH_GROUP2.html"
+                ],
+                "scripts": [
+                    "slides/aphinity/APH_GROUP2/APH_GROUP2.js"
+                ],
+                "styles": [
+                    "slides/aphinity/APH_GROUP2/APH_GROUP2.css"
+                ]
+            }
+        },
+        "APH_GROUP3": {
+            "id": "APH_GROUP3",
+            "name": "Analyse de sous-groupe 3",
+            "files": {
+                "templates": [
+                    "slides/aphinity/APH_GROUP3/APH_GROUP3.html"
+                ],
+                "scripts": [
+                    "slides/aphinity/APH_GROUP3/APH_GROUP3.js"
+                ],
+                "styles": [
+                    "slides/aphinity/APH_GROUP3/APH_GROUP3.css"
+                ]
+            }
+        },
+        "APH_GROUP4": {
+            "id": "APH_GROUP4",
+            "name": "Analyse de sous-groupe 4",
+            "files": {
+                "templates": [
+                    "slides/aphinity/APH_GROUP4/APH_GROUP4.html"
+                ],
+                "scripts": [
+                    "slides/aphinity/APH_GROUP4/APH_GROUP4.js"
+                ],
+                "styles": [
+                    "slides/aphinity/APH_GROUP4/APH_GROUP4.css"
+                ]
+            }
+        },
+        "APH_GROUP5": {
+            "id": "APH_GROUP5",
+            "name": "Analyse de sous-groupe 5",
+            "files": {
+                "templates": [
+                    "slides/aphinity/APH_GROUP5/APH_GROUP5.html"
+                ],
+                "scripts": [
+                    "slides/aphinity/APH_GROUP5/APH_GROUP5.js"
+                ],
+                "styles": [
+                    "slides/aphinity/APH_GROUP5/APH_GROUP5.css"
+                ]
+            }
+        },
+        "APH_SECURITY1": {
+            "id": "APH_SECURITY1",
+            "name": "Tolérance 1",
+            "files": {
+                "templates": [
+                    "slides/aphinity/APH_SECURITY1/APH_SECURITY1.html"
+                ],
+                "scripts": [
+                    "slides/aphinity/APH_SECURITY1/APH_SECURITY1.js"
+                ],
+                "styles": [
+                    "slides/aphinity/APH_SECURITY1/APH_SECURITY1.css"
+                ]
+            }
+        },
+        "APH_SECURITY2": {
+            "id": "APH_SECURITY2",
+            "name": "Tolérance 2",
+            "files": {
+                "templates": [
+                    "slides/aphinity/APH_SECURITY2/APH_SECURITY2.html"
+                ],
+                "scripts": [
+                    "slides/aphinity/APH_SECURITY2/APH_SECURITY2.js"
+                ],
+                "styles": [
+                    "slides/aphinity/APH_SECURITY2/APH_SECURITY2.css"
+                ]
+            }
+        },
+        "APH_SECURITY3": {
+            "id": "APH_SECURITY3",
+            "name": "Tolérance 3",
+            "files": {
+                "templates": [
+                    "slides/aphinity/APH_SECURITY3/APH_SECURITY3.html"
+                ],
+                "scripts": [
+                    "slides/aphinity/APH_SECURITY3/APH_SECURITY3.js"
+                ],
+                "styles": [
+                    "slides/aphinity/APH_SECURITY3/APH_SECURITY3.css"
+                ]
+            }
+        },
+        "APH_SECURITY4": {
+            "id": "APH_SECURITY4",
+            "name": "Tolérance 4",
+            "files": {
+                "templates": [
+                    "slides/aphinity/APH_SECURITY4/APH_SECURITY4.html"
+                ],
+                "scripts": [
+                    "slides/aphinity/APH_SECURITY4/APH_SECURITY4.js"
+                ],
+                "styles": [
+                    "slides/aphinity/APH_SECURITY4/APH_SECURITY4.css"
+                ]
+            }
+        },
+        "APH_QOL1": {
+            "id": "APH_QOL1",
+            "name": "Quality de vie 1",
+            "files": {
+                "templates": [
+                    "slides/aphinity/APH_QOL1/APH_QOL1.html"
+                ],
+                "scripts": [
+                    "slides/aphinity/APH_QOL1/APH_QOL1.js"
+                ],
+                "styles": [
+                    "slides/aphinity/APH_QOL1/APH_QOL1.css"
+                ]
+            }
+        },
+        "APH_CONC1": {
+            "id": "APH_CONC1",
+            "name": "Conclusions 1",
+            "files": {
+                "templates": [
+                    "slides/aphinity/APH_CONC1/APH_CONC1.html"
+                ],
+                "scripts": [
+                    "slides/aphinity/APH_CONC1/APH_CONC1.js"
+                ],
+                "styles": [
+                    "slides/aphinity/APH_CONC1/APH_CONC1.css"
+                ]
+            }
+        },
+        "APH_CONC2": {
+            "id": "APH_CONC2",
+            "name": "Conclusions 2",
+            "files": {
+                "templates": [
+                    "slides/aphinity/APH_CONC2/APH_CONC2.html"
+                ],
+                "scripts": [
+                    "slides/aphinity/APH_CONC2/APH_CONC2.js"
+                ],
+                "styles": [
+                    "slides/aphinity/APH_CONC2/APH_CONC2.css"
+                ]
+            }
+        },
+        "APH_CONC3": {
+            "id": "APH_CONC3",
+            "name": "Conclusions 3",
+            "files": {
+                "templates": [
+                    "slides/aphinity/APH_CONC3/APH_CONC3.html"
+                ],
+                "scripts": [
+                    "slides/aphinity/APH_CONC3/APH_CONC3.js"
+                ],
+                "styles": [
+                    "slides/aphinity/APH_CONC3/APH_CONC3.css"
+                ]
+            }
+        },
+        "posologie_neo_efficacite1": {
+            "id": "posologie_neo_efficacite1",
+            "name": "posologie_neo_efficacite1",
+            "files": {
+                "templates": [
+                    "slides/posologie_neo_efficacite1/posologie_neo_efficacite1.html"
+                ],
+                "scripts": [
+                    "slides/posologie_neo_efficacite1/posologie_neo_efficacite1.js"
+                ],
+                "styles": [
+                    "slides/posologie_neo_efficacite1/posologie_neo_efficacite1.css"
+                ]
+            }
+        },
+        "aphinity_reco": {
+            "id": "aphinity_reco",
+            "name": "aphinity_reco",
+            "files": {
+                "templates": [
+                    "slides/aphinity_reco/aphinity_reco.html"
+                ],
+                "scripts": [
+                    "slides/aphinity_reco/aphinity_reco.js"
+                ],
+                "styles": [
+                    "slides/aphinity_reco/aphinity_reco.css"
+                ]
+            }
+        }
+    },
+    "modules": {
+        "ag-auto-menu": {
+            "name": "Agnitio Auto Menu",
+            "description": "Menu that automatically builds.",
+            "type": "global",
+            "files": {
+                "styles": [
+                    "modules/ag-auto-menu/ag-auto-menu.css"
+                ],
+                "scripts": [
+                    "modules/ag-auto-menu/ag-auto-menu.js"
+                ]
+            },
+            "dependencies": [
+                {
+                    "global": "Draggy",
+                    "src": "accelerator/lib/draggy.js"
+                }
+            ],
+            "version": "0.9.5"
+        },
+        "ag-overlay": {
+            "name": "Agnitio Overlay",
+            "type": "universal",
+            "description": "Creates an overlay to the presentation.",
+            "files": {
+                "styles": [
+                    "modules/ag-overlay/ag-overlay.css"
+                ],
+                "scripts": [
+                    "modules/ag-overlay/ag-overlay.js"
+                ]
+            },
+            "version": "0.5.2"
+        },
+        "ag-indicators": {
+            "name": "Agnitio Indicators",
+            "description": "Indicators of slides and current position.",
+            "type": "global",
+            "files": {
+                "styles": [
+                    "modules/ag-indicators/ag-indicators.css"
+                ],
+                "scripts": [
+                    "modules/ag-indicators/ag-indicators.js"
+                ]
+            },
+            "version": "0.9.5"
+        }
+    },
+    "structures": {
+        "perjeta_chap1": {
+            "name": "Epidémiologie",
+            "id": "perjeta_chap1",
+            "content": [
+                "PER_EPIDEMIO1",
+                "PER_EPIDEMIO2",
+                "PER_EPIDEMIO3",
+                "PER_EPIDEMIO4",
+                "PER_EPIDEMIO5",
+                "PER_EPIDEMIO6"
+            ],
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "perjeta_chap2": {
+            "name": "Essais Cliniques",
+            "id": "perjeta_chap2",
+            "content": [
+                "PER_CLINICAL1",
+                "PER_CLINICAL2"
+            ],
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "perjeta_chap3": {
+            "name": "En Pratique",
+            "id": "perjeta_chap3",
+            "content": [
+                "PER_PRAC1",
+                "PER_PRAC2",
+                "PER_PRAC3"
+            ],
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "perjeta_chap4": {
+            "name": "Conclusions",
+            "id": "perjeta_chap4",
+            "content": [
+                "PER_CONC1",
+                "PER_CONC2",
+                "PER_CONC3"
+            ],
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "neosphere_chap1": {
+            "name": "Design de l'étude",
+            "id": "neosphere_chap1",
+            "content": [
+                "NEO_DESIGN1",
+                "NEO_DESIGN2"
+            ],
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "neosphere_chap2": {
+            "name": "Efficacité",
+            "id": "neosphere_chap2",
+            "content": [
+                "NEO_EFFICACY1",
+                "NEO_EFFICACY2",
+                "NEO_EFFICACY3",
+                "NEO_EFFICACY4"
+            ],
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "neosphere_chap3": {
+            "name": "Tolérance",
+            "id": "neosphere_chap3",
+            "content": [
+                "NEO_SAFETY1",
+                "NEO_SAFETY2",
+                "NEO_SAFETY3"
+            ],
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "neosphere_chap4": {
+            "name": "Conclusions",
+            "id": "neosphere_chap4",
+            "content": [
+                "NEO_CONC"
+            ],
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "tryphaena_chap1": {
+            "name": "Design de l'étude",
+            "id": "tryphaena_chap1",
+            "content": [
+                "try_design1",
+                "try_design2"
+            ],
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "tryphaena_chap2": {
+            "name": "Efficacité",
+            "id": "tryphaena_chap2",
+            "content": [
+                "try_efficacy1",
+                "try_efficacy2"
+            ],
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "tryphaena_chap3": {
+            "name": "Tolérance",
+            "id": "tryphaena_chap3",
+            "content": [
+                "try_safety1",
+                "try_safety2"
+            ],
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "tryphaena_chap4": {
+            "name": "Conclusions",
+            "id": "tryphaena_chap4",
+            "content": [
+                "try_conc"
+            ],
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "aphinity_chap1": {
+            "name": "Design de l'étude",
+            "id": "aphinity_chap1",
+            "content": [
+                "APH_DESIGN1",
+                "APH_DESIGN2",
+                "APH_DESIGN3"
+            ],
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "aphinity_chap2": {
+            "name": "Efficacité",
+            "id": "aphinity_chap2",
+            "content": [
+                "APH_EFF1",
+                "APH_EFF2"
+            ],
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "aphinity_chap3": {
+            "name": "Analyse de sous-<br>groupes",
+            "id": "aphinity_chap3",
+            "content": [
+                "APH_GROUP1",
+                "APH_GROUP2",
+                "APH_GROUP3",
+                "APH_GROUP4",
+                "APH_GROUP5"
+            ],
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "aphinity_chap4": {
+            "name": "Tolérance",
+            "id": "aphinity_chap4",
+            "content": [
+                "APH_SECURITY1",
+                "APH_SECURITY2",
+                "APH_SECURITY3",
+                "APH_SECURITY4"
+            ],
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "aphinity_chap5": {
+            "name": "Qualité de vie",
+            "id": "aphinity_chap5",
+            "content": [
+                "APH_QOL1"
+            ],
+            "type": "slideshow",
+            "shareable": {}
+        },
+        "aphinity_chap6": {
+            "name": "Conclusions",
+            "id": "aphinity_chap6",
+            "content": [
+                "APH_CONC1",
+                "APH_CONC2",
+                "APH_CONC3"
+            ],
+            "type": "slideshow",
+            "shareable": {}
+        }
+    },
+    "storyboard": [
+        "default",
+        "perjeta",
+        "aphinity"
+    ],
+    "storyboards": {
+        "default": {
+            "content": [
+                "opening",
+                "Home-4-RUB"
+            ],
+            "name": "Welcome"
+        },
+        "perjeta": {
+            "content": [
+                "perjeta_chap1",
+                "perjeta_chap2",
+                "perjeta_chap3",
+                "perjeta_chap4"
+            ],
+            "name": "perjeta"
+        },
+        "neosphere": {
+            "content": [
+                "neosphere_chap1",
+                "neosphere_chap2",
+                "neosphere_chap3",
+                "neosphere_chap4"
+            ],
+            "name": "neosphere"
+        },
+        "tryphaena": {
+            "content": [
+                "tryphaena_chap1",
+                "tryphaena_chap2",
+                "tryphaena_chap3",
+                "tryphaena_chap4"
+            ],
+            "name": "tryphaena"
+        },
+        "aphinity": {
+            "content": [
+                "aphinity_chap1",
+                "aphinity_chap2",
+                "aphinity_chap3",
+                "aphinity_chap4",
+                "aphinity_chap5",
+                "aphinity_chap6"
+            ],
+            "name": "aphinity"
+        }
+    }
+}

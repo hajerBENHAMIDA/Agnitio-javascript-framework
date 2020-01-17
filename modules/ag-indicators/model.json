@@ -1,0 +1,10 @@
+{
+  "name": "Agnitio Indicators",
+  "description": "Indicators of slides and current position.",
+  "type": "global",
+  "files": {
+    "styles": ["modules/ag-indicators/ag-indicators.css"],
+    "scripts": ["modules/ag-indicators/ag-indicators.js"]
+  },
+  "version": "0.9.5"
+}

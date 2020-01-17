@@ -1,0 +1,147 @@
+.neo-slide {
+    padding-top: 10% !important;
+  
+
+}
+
+.neo-des1-warpper {
+    width: 83%;
+    height: 80%;
+    margin: 0 auto ;
+    margin-left:14%;
+}
+#NEO_DESIGN1 {
+
+}
+
+
+#neo-des1-text1 {
+    width: 90%;
+    height: 18%;
+    background: url(assets/texte_1.png) no-repeat center center ;
+    background-size: contain ;
+}
+
+
+#neo-des1-text2 {
+    width: 100%;
+    height: 5.5%;
+    background: url(assets/texte_2.png) no-repeat left center ;
+    background-size: contain ;
+}
+
+#neo-des1-graph {
+    width: 95%;
+    height: 50%;
+}
+
+#neo-des1-text3 {
+    width: 100%;
+    height: 31.5%;
+    background: url(assets/texte_3.png) no-repeat left center ;
+    background-size: contain ;
+    margin-top: 3% ;
+}
+
+.neo-des1-column {
+    float: left ;
+}
+
+#neo-des1-elem1 {
+    position: relative;
+    top: 17%;
+    height: 90%;
+    width: 30% ;
+    background: url(assets/elem_1.png) no-repeat center center;
+    background-size: contain ;
+}
+#neo-des1-col2 {
+    height: 100%;
+    width: 23%;
+}
+.neo-des1-ligne{
+    width: 100%;
+    height: 19%;
+    margin-bottom: 2.5%;
+}
+
+#neo-des1-elem2 {
+    background: url(assets/elem_2.png) no-repeat;
+    background-size: contain ;
+}
+
+#neo-des1-elem3 {
+    
+    background: url(assets/elem_3.png) no-repeat;
+    background-size: contain ;
+}
+
+#neo-des1-elem4 {
+    background: url(assets/elem_4.png) no-repeat;
+    background-size: contain ;
+}
+
+#neo-des1-elem5 {
+    background: url(assets/elem_5.png) no-repeat;
+    background-size: contain ;
+}
+#neo-des1-elem6 {
+    background: url(assets/elem_6.png) no-repeat;
+    background-size: contain ;
+}
+#neo-des1-warpper-elem8 {
+    display: grid ;
+    width: 5%;
+    height: 100%;
+    margin-left: 1% ;
+
+}
+#neo-des1-elem8 {
+    margin: 0 auto ;
+    width: 79%;
+    height: 100%;
+    background: url(assets/elem_8.png) no-repeat center bottom;
+    background-size: contain ;
+}
+
+#neo-des1-col3 {
+    height: 94%;
+    width: 41%;
+    position: relative;
+    left: 1.5%;
+}
+
+#neo-des1-elem7 {
+    background: url(assets/elem_7.png) no-repeat left top;
+    background-size: contain ;
+}
+
+#neo-des1-elem9 {
+    background: url(assets/elem_9.png) no-repeat left center;
+    background-size: contain ;
+}
+#neo-des1-elem10 {
+    background: url(assets/element_11-01.png) no-repeat left center;
+    background-size: contain ;
+}
+#neo-des1-elem11 {
+    background: url(assets/elem_11.png) no-repeat left center;
+    background-size: contain ;
+}
+#neo-des1-elem12 {
+    background: url(assets/elem_12.png) no-repeat left center;
+    background-size: contain ;
+}
+#neo-des1-elem13 {
+    background: url(assets/elem_13.png) no-repeat left center;
+    background-size: contain ;
+}
+#popup_NEO_DESIGN1{
+    position: relative;
+    background: url("assets/popup/popup_1.png") no-repeat center center;
+    background-size: contain;
+    width: 100%;
+    height: 0%;
+    padding-top: 37.77239709443099%;
+    margin-top:15%;
+}

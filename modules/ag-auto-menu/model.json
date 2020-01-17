@@ -1,0 +1,11 @@
+{
+  "name": "Agnitio Auto Menu",
+  "description": "Menu that automatically builds.",
+  "type": "global",
+  "files": {
+    "styles": ["modules/ag-auto-menu/ag-auto-menu.css"],
+    "scripts": ["modules/ag-auto-menu/ag-auto-menu.js"]
+  },
+  "dependencies": [{"global": "Draggy", "src": "accelerator/lib/draggy.js"}],
+  "version": "0.9.5"
+}

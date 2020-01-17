@@ -1,0 +1,38 @@
+#NEO_SAFETY3-warpper{ 
+    position: relative;
+    height: 75%;
+width: 90%;
+top: 13%;
+left: 10%;
+/* border: 1px solid red;   */
+}
+#titre_NEO_SAFETY3{
+position: relative;
+background: url('assets/texte.png') no-repeat;
+background-size: contain;
+/* border: 1px red solid;    */
+width: 50%;
+height: 12%;
+top: 0%;
+left: 20%;
+}
+#texte_NEO_SAFETY3{
+position: relative;
+background: url('assets/1-01.png') no-repeat;
+background-size: contain;
+/* border: 1px red solid;    */
+width: 93%;
+height: 91%;
+top: 5%;
+left: 0%;
+}
+#icon_NEO_SAFETY3{
+position: relative;
+background: url('assets/Man.gif') no-repeat;
+background-size: contain;
+ /* border: 1px red solid;    */
+ width: 7%;
+ height: 14%;
+ top: 6%;
+ left: 3%;
+}

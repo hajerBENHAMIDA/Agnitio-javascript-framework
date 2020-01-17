@@ -1,0 +1,86 @@
+#CONC1 {
+    position: relative;
+    height: 75%;
+    width: 90%;
+    top: 13%;
+    left: 10%;
+    /* border: 1px solid red;      */
+}
+#colclusion_perjeta_s13{
+ position: absolute;
+ background: url("assets/1-01.png")no-repeat;
+ background-size: contain;
+ width: 95%;
+ height: 60%;
+ top: 15%;
+ /* border: 1px solid salmon;      */
+
+}
+#ref_perjeta_s13{
+    position: absolute;
+    background: url("assets/1-02.png")no-repeat;
+    background-size: contain;
+    width: 20%;
+    height: 10%;
+    top: 65%;
+    right: 18%;
+    /* border: 1px solid fuchsia;      */
+
+   }
+
+   @keyframes appariton{
+    from {
+        opacity:0;
+
+    }
+    to {
+        opacity: 1;
+    }
+ }
+
+ @-webkit-keyframes appariton{
+     from {
+         opacity:0;
+
+     }
+     to {
+         opacity: 1;
+     }
+  }
+
+  @-webkit-keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(-1000px);
+              transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(-1000px);
+              transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+
+  
+  .colclusion_perjeta_s13_anim{
+    -webkit-animation: slide-in-left 0.5s  linear ;
+    animation: slide-in-left 0.5s linear;
+  }
+
+  .ref_perjeta_s13_anim{
+    -webkit-animation: appariton 2.5s  linear; 
+    animation: appariton 2.5s  linear;  
+  }

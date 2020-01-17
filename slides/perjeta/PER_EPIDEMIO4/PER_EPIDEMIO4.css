@@ -1,0 +1,130 @@
+#EPIDEMIO4 { 
+    position: relative;
+    height: 75%;
+    width: 90%;
+    top: 13%;
+    left: 10%;
+    /* border: 1px red solid ;    */
+ }
+ #titre_perjeta_s5{
+     position: relative;
+     background: url('assets/texte-01.png') no-repeat;
+     background-size: contain;
+     /* border: 1px red solid;    */
+     width: 65%;
+     height: 13%;
+     top: 0%;
+     left: 12%;
+ }
+
+ #courbe_perjeta_s5{
+    position: relative;
+    background: url('assets/axe_1-01.png') no-repeat center center;
+    background-size: contain;
+    /* border: 1px solid sandybrown;  */
+    width: 65%;
+    height: 67%;
+    top: 3%;
+    left: 15%;
+}
+#ligne_courbe_perjeta_s5{
+    position: absolute;
+    background: url('assets/courbe_1-01-01.png') no-repeat center center;
+    background-size: contain;
+    /* border: 1px solid darkmagenta;   */
+    width: 70%;
+    height: 54%;
+    top: 18.1%;
+    left: 15.1%;
+    margin: auto;
+}
+#texte_perjeta_s5{
+    position: relative;
+    background: url('assets/texte_2-01.png') no-repeat center center;
+    background-size: contain;
+    /* border: 1px green solid;   */
+    width: 95%;
+    height: 18%;
+    top: 6%;
+    left: 2%;
+}
+/***********popup************/
+#popup_PER_EPIDEMIO4{
+    position: relative;
+    background: url("assets/popup/pop_up-01.png") no-repeat center center;
+    background-size: contain;
+    width: 90%;
+    height: 0%;
+    margin: 0 auto ;
+    padding-top: 60.26086956521739%;
+    margin-top:6%;
+
+}
+
+#chiffres_courbe_perjeta_s5{
+    position: absolute;
+    width: 10%;
+    height: 25%;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    top: 28%;
+    right: 11%;
+}
+
+#numero_courbe_perjeta_s5{
+    background:url("assets/1-02.png") no-repeat center center;
+    background-size: contain;
+    width: 62%;
+    height: 15%;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    margin: 1px auto;
+}
+#fleche1_courbe_perjeta_s5{
+    background:url("assets/1-04.png") no-repeat center center;
+    background-size: contain;
+    width: 100%;
+    height: 40.28%;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    
+}
+#fleche2_courbe_perjeta_s5{
+    background:url("assets/1-04.png") no-repeat center center;
+    background-size: contain;
+    width: 100%;
+    height: 40.28%;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    transform: rotate(180deg);
+}
+
+.numero_courbe_perjeta_s5_anim{
+    -webkit-animation: appariton 3.5s  linear ; 
+    animation: appariton 3.5s  linear ; 
+}
+.fleche1_courbe_perjeta_s5_anim{
+    
+    -webkit-animation: poin_neosphere  2.9s ;
+    animation: poin_neosphere 2.9s ;
+     
+}
+.fleche2_courbe_perjeta_s5_anim{
+    animation: top_down 2s linear;
+    -webkit-animation: top_down 2s linear;
+}
+
+
+@keyframes top_down{
+
+    0%{
+        -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+        clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+
+        }
+
+    100%{
+        -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+        clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+    }
+}

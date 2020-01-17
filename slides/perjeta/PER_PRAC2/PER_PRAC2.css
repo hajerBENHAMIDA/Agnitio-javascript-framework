@@ -1,0 +1,57 @@
+#PRAC2 {
+    position: relative;
+
+    height: 75%;
+    width: 90%;
+    top: 13%;
+    left: 10%;
+     /* border: 1px solid red;    */
+}
+#titre_perjeta_s11{
+    position: relative;
+    height: 8%;
+    width: 60%;
+    background: url("assets/texte_1.png") no-repeat center center ;
+    background-size: contain ;
+    left: 16%;
+}
+#tableau_perjeta_s11{
+    position: relative;
+    height: 60%;
+    width: 100%;
+    top: 3%;
+    /* border: 1px solid lawngreen; */
+}
+
+#contenu_tableau_perjeta_s11{
+    position: relative;
+    background:url("assets/tableau.png") no-repeat;
+    background-size:contain;
+    height: 90%;
+    width: 90%;
+    left: 5%;
+    top: 10%;
+    /* border: 1px solid slateblue; */
+
+}
+#titre_tableau_perjeta_s11{
+    position: absolute;
+    background:url("assets/header_tableau.png") no-repeat;
+    background-size:contain;
+    height: 20%;
+    width: 90%;
+    /* border: 1px solid salmon; */
+    left: 5%;
+    top: 10%;
+}
+#texte_perjeta_s11{
+    position: absolute;
+    background:url("assets/texte_2.png") no-repeat;
+    background-size:contain; 
+    height: 35%;
+    width: 94%;
+    /* border: 1px solid plum; */
+    top: 70%;
+    left: 3%;
+
+}

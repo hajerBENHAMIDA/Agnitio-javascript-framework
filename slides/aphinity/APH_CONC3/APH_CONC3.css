@@ -1,0 +1,46 @@
+#APH_CONC3 {}
+
+
+#aph-conc3-warpper {
+    height: 75%;
+    width: 85%;
+    margin: 0 auto;
+    margin-left: 10%;
+}
+
+
+
+#aph-conc3-title {
+    width: 67%;
+    height: 15%;
+    background: url(assets/texte.png) no-repeat center center ;
+    background-size: contain ;
+    margin: 0 auto ;
+    margin-bottom: 1%;
+}
+
+
+#aph-conc3-bloc-text1{
+    width: 100%;
+    height: 40%;
+    background: url(assets/bloce_de_texte_1.png) no-repeat left center ;
+    background-size: contain ;
+}
+
+#aph-conc3-bloc-text2{
+    width: 100%;
+    height: 22.33%;
+    background: url(assets/bloce_de_texte_2.png) no-repeat center center ;
+    background-size: contain ;
+    position: relative;
+    bottom: 2%;
+}
+#aph-conc3-bloc-text3{
+    position: relative;
+    bottom: 4%;
+    width: 100%;
+    height: 34%;
+    background: url(assets/bloce_de_texte_3.png) no-repeat center center ;
+    background-size: contain ;
+}
+

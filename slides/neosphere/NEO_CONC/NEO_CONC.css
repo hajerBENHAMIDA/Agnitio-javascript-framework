@@ -1,0 +1,77 @@
+#NEO_CONC-warpper{
+    position: relative;
+    height: 75%;
+    width: 90%;
+    top: 13%;
+    margin-left:10%    /* border: 1px solid red;    */
+}
+    #titre_NEO_CONC{
+    position: relative;
+    background: url('assets/1-03.png') no-repeat;
+    background-size: contain;
+    /* border: 1px red solid;    */
+    width: 60%;
+    height: 12%;
+    top: 0%;
+    left: 13%;
+    }
+    #soustitre_NEO_CONC{
+        position: relative;
+        background: url('assets/1-02.png') no-repeat;
+        background-size: contain;
+        /* border: 1px red solid;    */
+        width: 55%;
+        height: 10%;
+        top: 0%;
+        left: 17%;
+        }
+    #texte_NEO_CONC{
+    position: relative;
+    background: url('assets/1-01.png') no-repeat;
+    background-size: contain;
+    /* border: 1px red solid;    */
+    width: 92%;
+    height: 82%;
+    top: 2%;
+    left: 0%;
+    }
+    #icon1_NEO_CONC{
+    position: relative;
+    background: url('assets/picto1.gif') no-repeat;
+    background-size: contain;
+     /* border: 1px red solid;     */
+     width: 7%;
+     height: 14%;
+     top: 9%;
+     left: 3%;
+    }
+    #icon2_NEO_CONC{
+        position: relative;
+        background: url('assets/picto2.gif') no-repeat;
+        background-size: contain;
+         /* border: 1px red solid;     */
+         width: 7%;
+         height: 14%;
+         top: 16%;
+         left: 3%;
+        }
+        #icon3_NEO_CONC{
+            position: relative;
+            background: url('assets/picto3.gif') no-repeat;
+            background-size: contain;
+             /* border: 1px red solid;     */
+             width: 7%;
+             height: 14%;
+             top: 22%;
+             left: 3%;
+            }
+            #icon4_NEO_CONC{
+                position: relative;
+                background: url('assets/picto4.gif') no-repeat;
+                background-size: contain;
+                 /* border: 1px red solid;    */
+                 width: 7%;
+                 height: 14%;
+                 top: 29%;
+                 left: 3%;
+                }

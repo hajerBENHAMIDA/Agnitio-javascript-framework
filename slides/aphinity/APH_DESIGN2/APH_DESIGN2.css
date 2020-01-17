@@ -1,0 +1,101 @@
+#APH_DESIGN2 {}
+
+#aph-des2-warpper {
+    height: 85%;
+    width: 80%;
+    margin: 0 auto ;
+}
+
+#aph-des2-text1 {
+    height: 20%;
+    width: 55%;
+    background: url(assets/texte.png) no-repeat center center ;
+    background-size: contain ;
+    margin: 0 auto ;
+}
+
+#aph-des2-table1{
+    height: 80%;
+    width: 100%;
+    background: url(assets/tableau.png) no-repeat center bottom ;
+    background-size: contain ;
+    margin: 0 auto ;
+}
+#aph-des2-table1_overlay{
+    position: relative;
+    height: 0% ;
+    width: 100%;
+    padding-top: 70.7423580786026%;
+    background: url(assets/tableau.png) no-repeat center bottom ;
+    background-size: contain ;
+}
+#aph-des2-overlay{
+    position: relative;
+    height: 0% ;
+    width: 100%;
+    padding-top: 52% ;
+    background: url(assets/popup/popup-01.png) no-repeat;
+    background-size: contain;
+    margin-top: 10%;
+    margin-top: 2%;
+
+}
+#protocole{
+    position:relative;
+    display: block;  
+    width: 10%;
+    height: 14%;
+     /* border: 1px solid green;  */
+    float: right;
+    right: 2%;
+    top: 0%;
+    z-index: 999;
+}
+#protocole_white{
+    position: absolute;
+    background: url(assets/btn-01.png) no-repeat;
+    background-size: contain; 
+    background-position: top left;
+    width: 105%;
+    height: 130%;
+    /* border: 1px solid yellow;  */
+     /* -webkit-animation: rotation_protocole_white 7s infinite linear;  */
+}
+ @keyframes  rotation_protocole_white{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+ }
+#protocole_green{
+    position: absolute;
+    background: url(assets/btn-02.png) no-repeat;
+    background-size: contain;      
+    background-position: top left;
+    width: 100%;
+    height: 100%;
+    top: 7%;
+    left: 4%;
+    /* border: 1px solid indigo;  */
+     -webkit-animation: rotation_protocole_green 4s infinite linear; 
+}
+ @keyframes  rotation_protocole_green{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+ }
+#protocole_texte{
+    position:absolute;
+    background: url(assets/protocole-01.png) no-repeat;
+    background-size: contain;
+    background-position: bottom center;
+    width: 76%;
+    height: 70%;
+    left: 13%;
+    /* border: 1px solid plum;  */
+}

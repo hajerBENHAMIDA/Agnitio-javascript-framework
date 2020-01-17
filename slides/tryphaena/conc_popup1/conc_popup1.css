@@ -1,0 +1,547 @@
+#conc_popup1 {
+    position: relative;
+    background: url("assets/1-13.png") no-repeat;
+    background-size:contain;
+    height: 95%;
+    width: 95%;
+    margin:1% auto;
+    overflow: hidden;
+
+    /* border: 1px solid rebeccapurple; */
+}
+
+#popup1_conclusion{
+    position: absolute;
+    visibility: visible;
+
+    height: 100%;
+    width: 99%;
+}
+/* #popup1_1_conclusion{
+    display: none; 
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+
+    transition: translate(-150%, 0);
+} */
+#popup2_conclusion{
+    position: absolute;
+    visibility: hidden;
+    height: 100%;
+    width: 100%;
+
+}
+#popup3_conclusion{
+    position: absolute;
+    visibility: hidden;
+    height: 100%;
+    width: 100%;
+
+}
+#popup4_conclusion{
+    position: absolute;
+    visibility: hidden;
+    height: 100%;
+    width: 100%;
+
+}
+
+#titre_conc_popup1{
+    position: relative;
+    background: url('assets/1-11.png') no-repeat;
+    background-size: contain;
+    height: 5%;
+    width: 65%;
+    top: 3%;
+    left: 18%;
+    /* border:1px solid forestgreen; */
+}
+#contenu_conc_popup1{
+    position: relative;
+    height: 70%;
+    width: 100%;
+    top: 5%;
+    /* border:1px solid lightcoral; */
+
+}
+
+
+
+
+
+ 
+#partie1_conc_popup1{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    /* border:1px solid slateblue; */
+    float: left;
+
+}
+#titre_partie1_conc_popup1{
+    position: relative;
+    background: url("assets/1-09.png")no-repeat center center;
+    background-size: contain;
+    height:10%;
+    width: 85%;
+    /* border: 1px solid forestgreen; */
+    left: 5%;
+}
+#schema_partie1_conc_popup1{
+    position: relative;
+    height: 70%;
+    width: 100%;
+    top: 5%;
+    /* border: 1px solid darkblue; */
+
+}
+#cadre1_schema_partie1_conc_popup1{
+    position: absolute;
+    background: url("assets/1-07.png")no-repeat;
+    background-size: contain;
+    height: 26%;
+    width: 32%;
+    /* border: 1px solid teal; */
+    left: 4%;
+    top: 40%;
+}
+#tires_schema_partie1_conc_popup1{
+    position: absolute;
+    background: url("assets/1-08.png")no-repeat  ;
+    background-size: contain;
+    height: 75%;
+    width: 15%;
+    /* border: 1px solid yellow; */
+    left: 34%;
+    top: 15%;
+}
+#cadres_schema_partie1_conc_popup1{
+    position: absolute;
+    background: url("assets/1-05.png")no-repeat center center;
+    background-size: contain;
+    height: 87%;
+    width: 33%;
+    /* border: 1px solid indianred; */
+    left: 47%;
+    top: 8%;
+}
+#fleche_schema_partie1_conc_popup1{
+    position: absolute;
+    background: url("assets/1-06.png")no-repeat center center;
+    background-size: contain;
+    height: 47%;
+    width: 17%;
+    /* border: 1px solid plum; */
+    left: 82%;
+    top: 28%
+}
+
+
+
+
+
+#partie2_conc_popup1{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    /* border:1px solid magenta; */
+    float: right;
+
+}
+#titre_partie2_conc_popup1{
+    position: relative;
+    background: url("assets/1-10.png")no-repeat center center;
+    background-size: contain;
+    height:10%;
+    width: 85%;
+    left: 5%;
+}
+#texte_partie2_conc_popup1{
+    position: relative;
+    background: url("assets/1-01.png")no-repeat center center;
+    background-size: contain;
+    height:90%;
+    width: 100%;
+}
+
+#ref_conc_popup1{
+    position: relative;
+    background: url('assets/1-02.png') no-repeat;
+    background-size: contain;
+    height: 8%;
+    width: 65%;
+    /* border:1px solid mediumblue; */
+    top: 5%;
+    left:2%;
+
+}
+#buttons_conc_popup1{
+    position: absolute;
+    height: 10%;
+    width: 95%;
+    top: 88%;
+    left: 2.52%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+
+}
+#button1_conc_popup1{
+    position: relative;
+    background: url('assets/1-04.png') no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 50%;
+    float: left;
+    /* border:1px solid rgb(0, 255, 157); */
+
+}
+#button2_conc_popup1{
+    position: relative;
+    background: url('assets/1-03.png') no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 5%;
+    float: right;
+    /* border:1px solid darkblue; */
+
+}
+
+
+.i_am_here_anim{
+    -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+    animation: heartbeat 1.5s ease-in-out infinite both; 
+}
+
+/***************** slide2 **************/
+#conc_popup2 {
+    position: relative;
+    background: url("assets/back_conc2.png") no-repeat;
+    background-size:contain;
+    height: 95%;
+    width: 95%;
+    margin:2% auto;
+     /* border: 1px solid rebeccapurple;  */
+}
+
+#titre_conc_popup2{
+    position: relative;
+    background: url("assets/titre_conc2.png") no-repeat;
+    background-size: contain;
+    height: 10%;
+    width: 56%;
+    top: 3%;
+    left: 22%;
+
+     /* border:1px solid forestgreen;  */
+}
+#soustitre_conc_popup2{
+    position: relative;
+    background: url("assets/soustitre_conc2.png") no-repeat;
+    background-size: contain;
+    height: 5%;
+    width: 70%;
+    left: 14%;
+    top: 5%;
+    /* border:1px solid rgb(132, 139, 34);  */
+}
+#contenu_conc_popup2{
+    position: relative;
+    background: url("assets/texte_conc2.png") no-repeat;
+    background-size: contain;
+    height: 65%;
+    width: 95%;
+    top: 8%;
+    left: 2%;
+    /* border:1px solid lightcoral;  */
+
+}
+#button1_conc_popup2{
+    position: relative;
+    background: url("assets/retour_conc2.png") no-repeat;
+    background-size: contain;
+    height: 99%;
+    width: 5%;
+    float: left;
+    /* -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+    animation: heartbeat 1.5s ease-in-out infinite both;  */
+ /* border:1px solid rgb(0, 255, 157);  */
+}
+
+
+
+/************slide3**************/
+#conc_popup3 {
+    position: relative;
+    background: url("assets/back_conc3.png") no-repeat;
+    background-size:contain;
+    height: 95%;
+    width: 95%;
+    margin:2% auto;
+     /* border: 1px solid rebeccapurple;  */
+}
+#titre_conc_popup3{
+    position: relative;
+    background: url('assets/titre_conc3.png') no-repeat;
+    background-size: contain;
+    height: 10%;
+    width: 56%;
+    top: 3%;
+    left: 22%;
+     /* border:1px solid forestgreen;  */
+}
+#soustitre_conc_popup3{
+    position: relative;
+    background: url('assets/soustitre_conc3.png') no-repeat;
+    background-size: contain;
+    height: 5%;
+    width: 70%;
+    left: 14%;
+    top: 5%;
+    /* border:1px solid rgb(132, 139, 34);  */
+}
+#contenu_conc_popup3{
+    position: relative;
+    background: url('assets/texte_conc3.png') no-repeat;
+    background-size: contain;
+    height: 65%;
+    width: 95%;
+    top: 8%;
+    left: 2%;
+    /* border:1px solid lightcoral;  */
+
+}
+/*******************slide4*****************/
+
+
+#conc_popup4 {
+    position: relative;
+    background: url("assets/back_conc4.png") no-repeat;
+    background-size:contain;
+    height: 95%;
+    width: 95%;
+    margin:2% auto;
+     /* border: 1px solid rebeccapurple;  */
+}
+#titre_conc_popup4{
+    position: relative;
+    background: url('assets/titre_conc4.png') no-repeat;
+    background-size: contain;
+    height: 10%;
+    width: 60%;
+    top: 3%;
+    left: 20%;
+     /* border: 1px solid forestgreen;   */
+}
+#soustitre_conc_popup4{
+    position: relative;
+    background: url('assets/soustitre_conc4.png') no-repeat;
+    background-size: contain;
+    height: 6%;
+    width: 90%;
+    left: 5%;
+    top: 5%;
+    /* border:1px solid rgb(224, 230, 141);   */
+}
+/**************************************/
+#contenu_conc_popup4{
+    position: relative;
+    height: 36%;
+    width: 80%;
+    top: 6%;
+    left: 11%;
+    /* border:1px solid lightcoral;   */
+
+}
+
+#diag_conc_popup4{
+    position: absolute;
+    background: url('assets/diagno_conc4.png') no-repeat;
+    background-size: contain;
+    height: 75%;
+    width: 8%;
+    top: 0%;
+    left: 0%;
+    /* border:1px solid red;   */
+
+}
+
+#texte1_conc_popup4{
+    position: absolute;
+    background: url('assets/texte1_conc4.png') no-repeat;
+    background-size: contain;
+    height: 25%;
+    width: 22%;
+    top: 28%;
+    left: 8%;
+    /* border:1px solid maroon;   */
+
+}
+#fleche2_conc_popup4{
+    position: absolute;
+    background: url('assets/fleche_conc4.png') no-repeat;
+    background-size: contain;
+    height: 6%;
+    width: 5%;
+    top: 35%;
+    left: 31%;
+    /* border:1px solid lawngreen;   */
+
+}
+#cycle1_conc_popup4{
+    position: absolute;
+    background: url('assets/blue_conc4.png') no-repeat;
+    background-size: contain;
+    height: 75%;
+    width: 22%;
+    top: 0%;
+    left: 37%;
+    /* border:1px solid fuchsia;   */
+
+}
+#medecin_conc_popup4{
+    position: absolute;
+    background: url('assets/homme_conc4.png') no-repeat;
+    background-size: contain;
+    height: 36%;
+    width: 15%;
+    top: 20%;
+    left: 59%;
+    /* border:1px solid rosybrown;   */
+
+}
+#cycle2_conc_popup4{
+    position: absolute;
+    background: url('assets/vert_conc4.png') no-repeat;
+    background-size: contain;
+    height: 75%;
+    width: 18%;
+    top: 0%;
+    left: 74%;
+    /* border:1px solid coral;   */
+
+}
+#texte2_conc_popup4{
+    position: absolute;
+    background: url('assets/texte2_conc4.png') no-repeat;
+    background-size: contain;
+    height: 17%;
+    width: 18%;
+    top: 78%;
+    left: 37%;
+    /* border:1px solid chocolate;   */
+
+}
+#texte3_conc_popup4{
+    position: absolute;
+    background: url('assets/texte3_conc4.png') no-repeat;
+    background-size: contain;
+    height: 19%;
+    width: 17%;
+    top: 57%;
+    left: 56%;
+    /* border:1px solid teal;   */
+
+}
+
+
+#texte_conc_popup4{
+    position: relative;
+    background: url('assets/texte_conc4.png') no-repeat;
+    background-size: contain;
+    height:30%;
+    width: 90%;
+    top: 6%;
+    left: 2%;
+     /* border:1px solid lightcoral;   */
+}
+#button2_conc_popup4{
+    position: relative;
+    background: url('assets/suiv_conc4.png') no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 5%;
+    float: right;
+    /* border:1px solid darkblue; */
+}
+
+
+
+/* ----------------------------------------------
+ * Generated by Animista on 2019-7-9 12:21:20
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation heartbeat
+ * ----------------------------------------
+ */
+ @-webkit-keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }

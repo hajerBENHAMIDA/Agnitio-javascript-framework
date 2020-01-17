@@ -1,0 +1,158 @@
+#neo-eff4-warpper {
+    position: relative;
+    height: 75%;
+    width: 90%;
+    top: 13%;
+    left: 10%;
+     /* border: 1px solid red;  */
+}
+#titre_neosphere_s6{
+    position: relative;
+    background: url('assets/1-11.png') no-repeat;
+    background-size: contain;
+    /* border: 1px red solid;    */
+    width: 66%;
+    height: 15%;
+    top: 0%;
+    left: 12%;
+}
+#courbe_neosphere_s6{
+    position: relative;
+    background: url("assets/axe.png") no-repeat;
+    background-size: contain;
+    width: 75%;
+    height: 75%;
+    left: 7%;
+    /* border: 1px solid lawngreen; */
+}
+#ref_neosphere_s6{
+    position: absolute;
+    background: url("assets/1-07.png") no-repeat;
+    background-size: contain;
+    width: 90%;
+    height: 5%;
+    top: 95%;
+    left: -2%;
+    /* border: 1px solid seagreen; */
+}
+#blocgrid_neosphere_s6{
+    position: relative;
+    display: grid;
+    grid-template-rows: 100% ;
+    grid-template-columns:25% 25% 25% 25%;
+    grid-gap: 1%;
+    height: 59%;
+    width: 70%;
+    top: 82px;
+    left: 17.5%;
+    /* border: 1px solid rebeccapurple; */
+}
+#bloc1_neosphere_s6{
+    height:100%;
+} 
+#texte_vert1{
+    position: relative;
+
+    background: url("assets/1-09.png") no-repeat center;
+    background-size: contain ;
+    /* border: 1px solid fuchsia;  */
+    height: 20%;
+    width: 100%;
+    top: 8%;
+
+}
+#bloc_vert1{
+    position: relative;
+    background: url("assets/1-05.png") no-repeat center;
+    background-size: contain ;
+    /* border: 1px solid fuchsia;  */
+    height: 72%;
+    width: 100%;
+    top: 8%;
+}
+
+#bloc2_neosphere_s6{
+    position: relative;
+    height: 90%;
+    top: 12%;
+} 
+#texte_gris1{
+    position: relative;
+
+    background: url("assets/1-08.png") no-repeat center;
+    background-size: contain ;
+    /* border: 1px solid fuchsia;  */
+    height: 20%;
+    width: 100%;
+    top: 8%;
+}
+#bloc_gris1{
+    position: relative;
+    background: url("assets/1-02.png") no-repeat center;
+    background-size: contain ;
+    /* border: 1px solid fuchsia;  */
+    height: 70%;
+    width: 100%;
+    top: 8%;
+}
+
+#bloc3_neosphere_s6{
+    position: relative;
+    height: 74%;
+    top: 26%;
+} 
+#texte_gris2{
+    position: relative;
+
+    background: url("assets/1-10.png") no-repeat center;
+    background-size: contain ;
+    /* border: 1px solid fuchsia;  */
+    height: 20%;
+    width: 100%;
+    top: 8%;
+}
+#bloc_gris2{
+    position: relative;
+    background: url("assets/1-03.png") no-repeat center;
+    background-size: contain ;
+    /* border: 1px solid fuchsia;  */
+    height: 72%;
+    width: 100%;
+    top: 8%;
+}
+
+#bloc4_neosphere_s6{
+    position: relative;
+    height: 77%;
+    top: 23%;
+} 
+#texte_gris3{
+    position: relative;
+
+    background: url("assets/1-06.png") no-repeat center;
+    background-size: contain ;
+    /* border: 1px solid fuchsia;  */
+    height: 20%;
+    width: 100%;
+    top: 8%;
+}
+#bloc_gris3{
+    position: relative;
+    background: url("assets/1-04.png") no-repeat center;
+    background-size: contain ;
+    /* border: 1px solid fuchsia;  */
+    height: 72%;
+    width: 100%;
+    top: 8%;
+}
+#popup_NEO_EFFICACY4{
+    position: relative;
+    background: url("assets/popup/popup-01.png") no-repeat center center;
+    background-size: contain;
+    width: 100%;
+    height: 0%;
+    padding-top: 58.34223963899774% ;
+    margin: 0 auto ;
+    margin-top:6%;
+    
+}

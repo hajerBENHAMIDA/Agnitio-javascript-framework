@@ -1,0 +1,66 @@
+.ag-indicators {
+	position: fixed;
+	top: 0vh;
+	display: grid ;
+	pointer-events: none;
+	z-index: 0;
+	margin:0;
+	padding:0;
+	left: 98vw;
+	height: 100vh;
+	width: 1vw;
+  	-webkit-transform: translateX(-50%);
+  	-ms-transform: translateX(-50%);
+  	transform: translateX(-50%);
+}
+.ag-indicator-chapter {
+	float:left;
+	margin:0 4px;
+	padding:0;
+	align-self: center ;
+}
+.ag-indicators li {
+	list-style: none;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	margin: 4px 0;
+	/* background-color: #005779; */
+	background-image: linear-gradient(180deg, rgb(189, 189, 189) 20%, rgb(153, 153, 153) 100%)  ;
+	/*display: inline-block;*/
+}
+.ag-indicators.light-bg li {
+	background-color: #999;
+}
+.ag-indicators.ag-indicators-rectangle li {
+	border-radius: 0;
+	width:9px;
+}
+.ag-indicators.ag-indicators-line li {
+	border-radius: 0;
+	width:10px;
+	height: 2px;
+}
+.ag-indicators.ag-indicators-square li {
+	border-radius: 0;
+}
+.ag-indicators-linear.ag-indicators li {
+	display: inline-block;
+	margin: 0 5px;
+}
+.ag-indicators li:first-child {
+	margin-left:0;
+}
+.ag-indicators li:last-child {
+	margin-right:0;
+}
+
+.ag-indicators .active {
+	background-color: white;
+	background-image: linear-gradient(180deg, #1cc9b6 20%, #1cc9b6 100%)  ;
+
+}
+.ag-indicators.light-bg .active {
+	background-color: navy; 
+	
+}

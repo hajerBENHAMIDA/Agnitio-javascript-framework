@@ -1,0 +1,129 @@
+#slideshows {
+	
+}
+
+#presentation {
+	/* background: url("../opening/assets/background.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover; */
+	background-color: #F5F6FF;
+}
+
+h1 {
+	color: #87898c;
+	font-size: 36px;
+	font-family: AvenirNextLTPro-Bold, verdana, sans-serif;
+	margin-bottom: 12px;
+	margin-top: 0px;
+}
+
+h2 {
+	color: #87898c;
+	font-size: 14px;
+	font-family: AvenirNextLTPro-It, verdana, sans-serif;
+	margin-bottom: 30px;
+}
+
+h3 {
+	color: #87898c;
+	font-size: 18px;
+	font-family: AvenirNextLTPro-Regular, verdana, sans-serif;
+	margin-bottom: 10px;
+}
+
+#container {
+	text-align: left;
+	width: 540px;
+	margin: 100px 0px 0px 220px;
+}
+
+#icon-upload {
+	float: left;
+    background: url("assets/upload-icon.png") no-repeat;
+    width: 67px;
+    height: 362px;
+    margin: 6px 40px 0px 20px;
+}
+
+.uploadbox {
+	background-color: #ffffff;
+	width: 500px;
+	height: 250px;
+	padding: 120px 0px 0px 160px;
+	margin: 0px auto 0px auto;
+	border: 1px dashed #cccccc;
+	color: #c2d3d6;
+	font-size: 18px;
+	font-family: AvenirNextLTPro-It, verdana, sans-serif;
+	font-weight: normal;
+}
+
+.uploadbox:hover {
+	background-color: #93d2dd;
+	color: #ffffff;
+}
+
+.footer {
+	clear: both;
+	margin-top: 25px;
+	text-align: center;
+	color: #c2d3d6;
+	font-size: 14px;
+	font-family: AvenirNextLTPro-Regular, verdana, sans-serif;
+	font-weight: normal;
+	line-height: 1.5;
+}
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'AvenirNextLTPro-It';
+  src: url('assets/AvenirNextLTPro-It.eot');
+  src: url('assets/AvenirNextLTPro-It.woff') format('woff'),
+       url('assets/AvenirNextLTPro-It.ttf') format('truetype'),
+       url('assets/AvenirNextLTPro-It.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNextLTPro-Regular';
+  src: url('assets/AvenirNextLTPro-Regular.eot');
+  src: url('assets/AvenirNextLTPro-Regular.woff') format('woff'),
+       url('assets/AvenirNextLTPro-Regular.ttf') format('truetype'),
+       url('assets/AvenirNextLTPro-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNextLTPro-Bold';
+  src: url('assets/AvenirNextLTPro-Bold.eot');
+  src: url('assets/AvenirNextLTPro-Bold.woff') format('woff'),
+       url('assets/AvenirNextLTPro-Bold.ttf') format('truetype'),
+       url('assets/AvenirNextLTPro-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.container-welcome {
+	perspective: 300;
+	-webkit-perspective: 300;
+  }
+  
+  #imgLogo {
+	width: 275px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding: 15px;
+  }
+
+

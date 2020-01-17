@@ -1,0 +1,69 @@
+#try_safety1_warpper{
+    position: relative;
+
+    height: 75%;
+    width: 90%;
+    top: 13%;
+    left: 10%;
+    /* border: 1px solid red;    */
+}
+#titre_safety1_s5{
+    position: relative;
+    background: url('assets/1-08.png') no-repeat;
+    background-size: contain;
+    /* border: 1px red solid; */
+    width: 50%;
+    height: 10%;
+    left: 24%;
+}
+#tableau_safety1_s5{
+    position: relative;
+    background: url("assets/tableau.png") no-repeat;
+    background-size: contain;
+    height: 85%;
+    width: 78%;
+    left: 4%;
+    top:5%;
+    /* border: 1px solid forestgreen;  */
+}
+#entetes_try_safety1{
+    position: relative;
+    display: grid;
+    grid-template-rows: 100% ;
+    grid-template-columns:33.333% 33.333% 33.333%;
+    grid-gap: 1%;
+    height: 15%;
+    width: 72.4%;
+    left: 24.5%;
+    top: 1%;
+     /* border: 1px solid teal;  */
+}
+#entete1_try_safety1{
+    position: relative;
+    background: url("assets/1-04.png")no-repeat bottom;
+    background-size: contain;
+}
+
+#entete2_try_safety1{
+    position: relative;
+    background: url("assets/1-03.png")no-repeat bottom;
+    background-size: contain;
+}
+#entete3_try_safety1{
+    position: relative;
+    background: url("assets/1-07.png")no-repeat bottom;
+    background-size: contain;
+}
+
+/***********popup************/
+#popup_try_safety1{
+    position: relative;
+    background: url("assets/popup/popup-01.png") no-repeat center center;
+    background-size: contain;
+    width: 100%;
+    height: 0%;
+    padding-top: 66.07228915662651%;
+    margin-top:5%;
+
+   
+}

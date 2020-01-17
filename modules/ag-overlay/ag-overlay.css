@@ -1,0 +1,117 @@
+.ag-overlay-background {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:#F5F6FF;
+  z-index: -1;
+  opacity: 0.8!important;
+  transition: opacity 0.1s;
+
+}
+.ag-overlay-content {
+  position: fixed;
+  top: 0%!important;
+  bottom: 0%!important;
+  left: 0%!important;
+  right:0%!important;
+  height: 100vh;
+  width: 100vw ;
+  /* background-color: #fff; */
+  z-index: -1;
+  opacity: 0;
+   overflow: scroll;  
+  -webkit-overflow-scrolling: touch; 
+  padding:2%;
+}
+.ag-overlay-x {
+  position: absolute;
+   background: url("assets/x.png") no-repeat center;  
+  background-size: contain;
+  /* background-color:red;  */
+  right: 2% !important;
+  top: 11%!important;
+  width: 55px;
+  height: 60px;
+  border-radius: 20px;
+  border-color: white;
+  border-width:1%; 
+  text-align: center;
+  cursor: pointer;
+  z-index: -1;
+  opacity: 0;
+  padding:9px 12px;
+}
+.ag-close-x {
+  cursor: pointer; 
+  position: absolute ;
+  top: -10pt !important;
+  right: -10pt !important ;
+  background: url(assets/x.png) no-repeat center center ;
+  background-size: contain;
+  height: 50pt ;
+  width: 50pt ;
+
+}
+.graph{
+
+  top: 17pt !important;
+
+
+}
+/* .x-overlay-pos {
+  position: absolute;
+  background: url("assets/x.png") no-repeat center;  
+  background-size: contain;
+  /* background-color:red;  
+  right: 4%;
+  top: 17%;       
+  width: 55px;
+  height: 60px;
+  border-radius: 20px;
+  border-color: white;
+  border-width:1%; 
+  text-align: center;
+  cursor: pointer;
+  z-index: -1;
+  opacity: 0;
+  padding:9px 12px;
+} */
+.ag-close-x-rcp {
+  position: fixed;
+  top: 20pt !important;
+  right: 1pt !important;
+  height: 40pt;
+  width: 40pt;
+  margin-left: 100%;
+  margin-top: 2%;
+}
+
+
+/* .ag-overlay-x::after {
+  content: "X";
+  color:white;
+  font-weight: bold;
+  font-size: 1.6em;
+} */
+.state-ag-overlay-open .ag-overlay-background,
+.state-ag-overlay-open .ag-overlay-content,
+.state-ag-overlay-open .ag-overlay-x {
+  z-index: 9999;
+  opacity: 1;
+}
+
+.ag-overlay-actions {
+  position: absolute;
+  bottom:0;
+  height: 75px;
+  background-color: white;
+  /*border-top:1px solid #d2d2d2;*/
+  width: 96%;
+  padding: 10px 0px;
+}
+.ag-overlay-actions button {
+  float:right;
+  margin-left:25px;
+}

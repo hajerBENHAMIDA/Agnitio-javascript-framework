@@ -1,0 +1,107 @@
+#CLINICAL1 {
+    position: relative;
+
+    height: 75%;
+    width: 90%;
+    top: 13%;
+    left: 10%;
+    /* border: 1px solid red; */
+}
+.text-s8 {
+    position: relative ;
+    height:9%;
+    width: 100%;
+    margin-right: auto;
+    margin-bottom: 3%;
+    /* border: 1px solid cornflowerblue; */
+
+}
+#titre_perjeta_s7{
+    background: url(assets/texte_1-01.png) no-repeat center ;
+    background-size: contain ;
+    width: 57%;
+    height: 12%;
+    left: 17%;
+}
+
+#sous_titre_perjeta_s7{
+    background: url(assets/texte_1-02.png) no-repeat center ;
+    background-size: contain ;
+    width: 62%;
+    left: 14%;
+    /* border: 1px solid orange; */
+}
+#courbes{
+    position: relative;
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 75%;
+}
+#courbe1_perjeta_s7{
+    position: relative;
+    background: url("assets/courbe_gauche/axe2-01.png") no-repeat center ;
+    background-size: contain ;
+    /* border: 1px solid purple; */
+    width: 42%;
+    height: 90%;
+    float: left;
+    top: 7%;
+    left: 3%;
+}
+#ligne1-courbe1_perjeta_s7{
+    position: absolute;
+    background: url("assets/courbe_gauche/courbe-01.png") no-repeat center ;
+    background-size: contain ;
+    width: 71%;
+    height: 33%;
+    top: 25%;
+    left: 20%;
+}
+#courbe2_perjeta_s7{
+    position: relative;
+    background: url("assets/courbe_droite/axe_2-01.png") no-repeat center ;
+    background-size: contain ;
+    /* border: 1px solid red; */
+
+    width: 42%;
+    height: 90%;
+    float: right;
+    top: 7%;
+    right: 5%;
+}
+#ligne2-courbe2_perjeta_s7{
+    position: absolute;
+    background: url("assets/courbe_droite/courbe-01.png") no-repeat center ;
+    background-size: contain ;
+    width: 71%;
+    height: 27%;
+    top: 25%;
+    left: 20%;
+}
+
+
+/**********poooopup************/
+#popup1_PER_CLINICAL1{
+    position: relative;
+    background: url("assets/courbe_gauche/popup_gauche/popup-01-01.png") no-repeat center center;
+    background-size: contain;
+    width: 80%;
+    height: 0%;
+    margin: 0 auto ;
+    padding-top: 68.72084385678205%;
+    margin-top:3%;
+
+
+}
+#popup2_PER_CLINICAL1{
+    position: relative;
+    background: url("assets/courbe_droite/poupup_droite/popup-01.png") no-repeat center center;
+    background-size: contain;
+    width: 80%;
+    height: 0%;
+    margin: 0 auto ;
+    padding-top: 68.72084385678205%;
+    margin-top:3%;
+
+
+}

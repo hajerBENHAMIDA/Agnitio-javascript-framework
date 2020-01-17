@@ -1,0 +1,66 @@
+#CLINICAL2 {
+    position: relative;
+    height: 75%;
+    width: 90%;
+    top: 13%;
+    left: 10%;
+     /* border: 1px solid red;  */
+}
+
+#titre_perjeta_s9{
+    position: relative;
+    height: 11%;
+    width: 50%;
+    left: 18%;
+    background: url("assets/texte-02.png") no-repeat center center ;
+    background-size: contain ;
+
+}
+#courbe_perjeta_s9{
+    position: relative;
+    /* border: 1px solid green; */
+    height: 75%;
+    width: 85%;
+    top:5%;
+}
+#axes_perjeta_s9{
+    position: relative;
+    background: url("assets/texte-03.png") no-repeat center;
+    background-size: contain ;
+    /* border: 1px solid green; */
+    height: 100%;
+    width: 100%;
+}
+#bloc_perjeta_s9{
+    position: absolute;
+    background: url("assets/texte-01.png") no-repeat center;
+    background-size: contain ;
+    /* border: 1px solid green; */
+    height: 70%;
+    width: 57%;
+    top: 13.5%;
+    left: 23%;
+}
+#texte_perjeta_slide_s9{
+    position: relative;
+    background:url("assets/texte-04.png") no-repeat center;
+    background-size:contain;
+    /* border: 1px solid fuchsia; */
+    height: 8%;
+    width: 50%;
+    top: 7%;
+
+}
+
+/*popup**/
+#popup2_PER_CLINICAL2{
+    position: relative;
+    background: url("assets/popup/popup-01.png") no-repeat center center;
+    background-size: contain;
+    width: 90%;
+    height: 0%;
+    margin: 0 auto ;
+    padding-top: 63.54484037620877%;
+    margin-top: 5%;
+
+}

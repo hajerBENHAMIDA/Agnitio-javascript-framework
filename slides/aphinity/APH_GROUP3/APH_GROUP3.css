@@ -1,0 +1,68 @@
+#APH_GROUP3 {}
+
+#aph-gr3-warpper{
+    margin: 5% auto ;
+    height: 80%;
+    width: 80%;
+}
+#aph-gr3-left {
+    height: 100%;
+    width: 75%;
+    float: left ;
+}
+#aph-gr3-text-container
+{
+    position: relative;
+    left: 5%;
+    height: 100%;
+    width: 100%;
+}
+#aph-gr3-title {
+    width: 100%;
+    height: 32%;
+    
+    background: url(assets/texte_1.png) no-repeat bottom center;
+    background-size: contain ;
+}
+
+#aph-gr3-text {
+    width: 80%;
+    height: 60%;
+    background: url(assets/tete_2.png) no-repeat top center;
+    background-size: contain ;
+    margin-top: 5%;
+
+}
+
+#aph-gr3-right {
+    position: relative;
+    height: 100%;
+    width: 25%;
+    background: url(assets/cercle.png) no-repeat center center ;
+    background-size: contain ;
+    float: right ;
+}
+
+#aph-gr3-arrow1 {
+    position: absolute ;
+    width: 65%;
+    height: 50%;
+    background: url(assets/fleche_1.png) no-repeat left bottom;
+    background-size: contain ;
+    left: 45%;
+    top: 1.5%;
+}
+
+#aph-gr3-arrow2 {
+    position: absolute ;
+    width: 100%;
+    height: 100%;
+    background: url(assets/fleche_2.png) no-repeat right center;
+    background-size: contain ;
+    left: 47%;
+    bottom: 17%;
+}
+
+embed{
+    visibility: hidden; 
+}

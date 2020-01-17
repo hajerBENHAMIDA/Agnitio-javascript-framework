@@ -1,0 +1,298 @@
+#opening {     
+     /* background: url(assets/jpg1.jpg) no-repeat;
+    background-size: contain;    */
+}
+#roche{
+    position: absolute;
+    background: url("assets/logo-01.png") no-repeat;
+    background-size: contain;
+    /* border: 1px solid rebeccapurple; */
+    height: 7%;
+    width: 10%;
+    top: 6%;
+    left: 4%;
+}
+#perjeta_nom{
+    position: relative;
+    background: url(assets/5-01.png) no-repeat;
+    background-size: contain;
+    /* border: 1px solid rebeccapurple; */
+    height: 22%;
+    width: 54%;
+    top: 1%;
+    left: 14%;
+
+}
+#logo{
+    position :relative;
+    /* border: 1px solid black; */
+    margin-top: 12%;
+    margin-left: 19%;
+    height: 31%;
+    width: 45%;
+}
+#demi_cercle_1{
+    position: absolute;
+    background: url("assets/1-01.png") no-repeat;
+    background-size: contain;
+    /* border: 1px solid rebeccapurple; */
+    height: 35%;
+    width: 15%;
+    top: 58%;
+    left: 31%;
+}
+#demi_cercle_2{
+    position: absolute;
+    background: url("assets/2-01.png") no-repeat;
+    background-size: contain;
+    /* border: 1px solid red; */
+    height: 41%;
+    width: 19%;
+    top: 52%;
+    left: 35%;
+}
+#lamette_1{
+    position: absolute;
+    background: url("assets/3-01.png") no-repeat;
+    background-size: cover;
+    /* border: 1px solid seagreen; */
+    height: 88%;
+    width: 97%;
+    top: 8%;
+    left: 1%;
+}
+#lamette_2{
+    position: absolute;
+    background: url("assets/4-01.png") no-repeat;
+    background-size: cover;
+    /* border: 1px solid chocolate; */
+    height: 35%;
+    width: 101%;
+    top: 60%;
+    left: 2%;
+}
+ #formes{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 0%;
+    /* border: 1px solid darkblue; */
+}
+#forme_verte{
+    /* position: absolute; */
+    background: url("assets/forme_vert-01.png") no-repeat right;
+    background-size: cover;
+    /* border: 1px solid cornflowerblue; */
+    height: 100%;
+    width: 100%;
+    float: right ;
+
+}
+#forme_blue{
+    position: relative;
+    background: url("assets/forme_bleu-01.png") no-repeat right;
+    background-size: cover;
+    /* border: 1px solid cornflowerblue; */
+    height: 100%;
+    width: 100%;
+    float: right;
+} 
+#ref_op{
+    position: relative;
+    background: url("assets/texte-01.png") no-repeat;
+    background-size: contain;
+    /* border: 1px solid chocolate; */
+    height: 7%;
+    width: 78%;
+    top: 26%;
+    left: 5%;
+
+}
+
+.ref_op_anim{
+  -webkit-animation: appariton 3s  linear; 
+  animation: appariton 3s  linear ;  
+}
+
+@-webkit-keyframes scale-up-ver-bottom {
+    /* 0% {
+      -webkit-transform: scaleY(0.4);
+              transform: scaleY(0.4);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+    } */
+    0% {
+       width: 0%;
+     }
+     100% {
+
+       width:100%;
+
+     }
+  }
+  @keyframes scale-up-ver-bottom {
+    /* 0% {
+      -webkit-transform: scaleY(0.4);
+              transform: scaleY(0.4);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+    } */
+    0% {
+        width: 0%;
+
+      }
+      100% {
+ 
+        width:100%;
+
+ 
+      }
+  }
+
+
+  /************Annimation********************/
+
+  @-webkit-keyframes  appariton{
+    from {
+        opacity:0;
+
+    }
+    to {
+        opacity: 1;
+    }
+ }
+
+ @keyframes appariton{
+    from {
+        opacity:0;
+
+    }
+    to {
+        opacity: 1;
+    }
+ }
+
+
+.forme_verte_annim{
+	-webkit-animation: scale-up-ver-bottom 1.9s linear;
+	        animation: scale-up-ver-bottom 1.9s linear;
+}
+.forme_blue_annim{
+	-webkit-animation: scale-up-ver-bottom  1.98s linear;
+	        animation: scale-up-ver-bottom  1.98s linear;
+
+}
+
+.perjeta_nom_annim{
+    -webkit-animation: appariton 3s  linear; 
+    animation: appariton 3s  linear;  
+}
+
+
+
+@-webkit-keyframes roll-in-left {
+    0% {
+      -webkit-transform: translateX(-800px) rotate(-540deg);
+              transform: translateX(-800px) rotate(-540deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+  @keyframes roll-in-left {
+    0% {
+      -webkit-transform: translateX(-800px) rotate(-540deg);
+              transform: translateX(-800px) rotate(-540deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+
+.demi_cercle_1_annim{
+	-webkit-animation: roll-in-left 1.5s ease-out both;
+	        animation: roll-in-left 1.5s ease-out both;
+}
+.demi_cercle_2_annim{
+	-webkit-animation: roll-in-left 1.5s ease-out both;
+	        animation: roll-in-left 1.5s  ease-out both;
+}
+
+
+@-webkit-keyframes lamette1 {
+    0% {
+
+     width: 0%;
+      opacity: 0;
+    }
+    100% {
+
+    width: 97%;
+      opacity: 1;
+    }
+  }
+  @keyframes lamette1 {
+    0% {
+
+    width: 0%;
+    opacity: 0;
+    }
+    100% {
+
+      width: 97%;
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes lamette2 {
+    0% {
+
+     width: 0%;
+      opacity: 0;
+    }
+    100% {
+
+    width: 101%;
+      opacity: 1;
+    }
+  }
+
+  @keyframes lamette2 {
+    0% {
+
+    width: 0%;
+    opacity: 0;
+    }
+    100% {
+
+      width: 101%;
+      opacity: 1;
+    }
+  }
+  
+.lamette_1_annim{
+	-webkit-animation: lamette1 1.8s  cubic-bezier(0.2,-2,0.8,1) ;
+	        animation: lamette1 1.8s cubic-bezier(0.2,-2,0.8,1);
+}
+.lamette_2_annim{
+	-webkit-animation: lamette2 2s cubic-bezier(0.2,-2,0.8,1) ;
+	        animation: lamette2 2s cubic-bezier(0.2,-2,0.8,1) ;
+}

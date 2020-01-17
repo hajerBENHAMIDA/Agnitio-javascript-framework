@@ -1,0 +1,152 @@
+#try_design1_warpper{
+    position: relative;
+
+    height: 75%;
+    width: 90%;
+    top: 13%;
+    left: 10%;
+     /* border: 1px solid red;  */
+}
+#titre_tryphaena_s1{
+    position: relative;
+    background: url('assets/1-07.png') no-repeat;
+    background-size: contain;
+    /* border: 1px red solid; */
+
+    width: 66%;
+    height: 10%;
+    left: 10%;
+}
+#soustitre_tryphaena_s1{
+    position: relative;
+    background: url('assets/1-01.png') no-repeat center center;
+    background-size: contain;
+    /* border: 1px green solid; */
+    width: 35%;
+    height: 6%;
+    left: 11%;
+}
+#schema_tryphaena_s1{
+    position: relative;
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns:70% 30% ;
+    grid-gap: 0.5%;
+
+    height: 50%;
+    width:70%;
+    /* border: 1px solid rebeccapurple; */
+    left: 11%;
+
+}
+#titre1_tryphaena_s1{
+    position: relative;
+    grid-area: 1/1;
+    background: url("assets/texte_1-01.png") no-repeat center center;
+    background-size: contain;
+    height: 100%;
+    width: 95%;
+    left: 6%;
+}
+#titre2_tryphaena_s1{
+    position: relative;
+    grid-area: 1/2;
+    background: url("assets/texte_1-02.png") no-repeat center center;
+    background-size: contain;
+    height: 99%;
+    width: 121%;
+    left: -13%;
+}
+#bloc1_neo_tryphaena_s1{
+    position: relative;
+    grid-area: 2/1;
+    background: url("assets/1-02.png") no-repeat center center;
+    background-size: contain;
+
+}
+#bloc2_neo_tryphaena_s1{
+    position: relative;
+    grid-area: 3/1;
+    background: url("assets/1-03.png") no-repeat center center;
+    background-size: contain;
+
+}
+#bloc3_neo_tryphaena_s1{
+    position: relative;
+    grid-area: 4/1;
+    background: url("assets/1-04.png") no-repeat center center;
+    background-size: contain;
+}
+
+
+#bloc1_adj_tryphaena_s1{
+    position: relative;
+    grid-area: 2/2;
+    background: url("assets/element-01.png") no-repeat;
+    background-size: contain;
+    top: 28%;
+}
+#bloc2_adj_tryphaena_s1{
+    position: relative;
+    grid-area: 3/2;
+    background: url("assets/element-02.png") no-repeat center center;
+    background-size: contain;
+}
+#bloc3_adj_tryphaena_s1{
+    position: relative;
+    grid-area: 4/2;
+    background: url("assets/element-03.png") no-repeat center center;
+    background-size: contain;
+}
+
+
+
+#texte_tryphaena_s1{
+    position: relative;
+    background: url('assets/1-06.png') no-repeat;
+    background-size: contain;
+    height: 36%;
+    width: 94%;
+    left: 2%;
+    /* border: 1px solid rosybrown; */
+}
+/***********popup************/
+#popup_try_design1{
+    position: relative;
+    background: url("assets/popup/popup-01.png") no-repeat center center;
+    background-size: contain;
+    width: 100%;
+    height: 0%;
+    padding-top: 36.51877133105802%;
+    margin-top:15%;
+}
+
+
+@keyframes appariton{
+    from {
+        opacity:0;
+
+    }
+    to {
+        opacity: 1;
+    }
+ }
+
+ @-webkit-keyframes appariton{
+     from {
+         opacity:0;
+
+     }
+     to {
+         opacity: 1;
+     }
+  }
+  
+  .titre1_tryphaena_s1_anim{
+    -webkit-animation: appariton 3.5s  linear; 
+    animation: appariton 3.5s  linear;  
+  }
+  .titre1_tryphaena_s2_anim{
+    -webkit-animation: appariton 3.5s  linear; 
+    animation: appariton 3.5s  linear;  
+  }

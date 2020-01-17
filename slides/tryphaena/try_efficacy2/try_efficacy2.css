@@ -1,0 +1,128 @@
+#try_efficacy2_warpper{
+    position: relative;
+
+    height: 75%;
+    width: 90%;
+    top: 19%;
+    left: 10%;
+     /* border: 1px solid red;    */
+}
+#courbe_tryphaena_s4{
+    position: relative;
+    background: url("assets/1-01.png") no-repeat;
+    background-size: contain;
+     /* border: 0.2px solid forestgreen;  */
+    height: 84%;
+    width: 84%;
+    left: 3%;
+}
+#blocgrid_tryphaena_s4{
+    position: relative;
+    display: grid;
+    grid-template-rows: 100% ;
+    grid-template-columns:33.333% 33.333% 33.333% ;
+    grid-gap: 1%;
+    height: 68%;
+    width: 75%;
+    top: 97px;
+    left: 15%;
+    /* border: 1px solid rebeccapurple;  */
+}
+#bloc1_tryphaena_s4{
+    height: 100%;
+    width: 90%;
+}
+
+#texte_vert{
+    position: relative;
+    background: url("assets/1-04.png") no-repeat;
+    background-size: contain;
+    /* border: 1px solid forestgreen; */
+    height: 16%;
+    width: 50%;
+    left: 20%;
+    top: 9%;
+
+}
+
+#bloc_vert{
+    position: relative;
+    background: url("assets/1-05.png") no-repeat;
+    background-size: contain;
+    /* border: 1px solid forestgreen; */
+    height: 74%;
+    width: 91%;
+    top: 9%;
+
+}
+
+#bloc2_tryphaena_s4{
+    height: 100%;
+    width: 90%;
+}
+#texte_orange{
+    position: relative;
+    background: url("assets/1-03.png") no-repeat;
+    background-size: contain;
+    /* border: 1px solid forestgreen; */
+    height: 16%;
+    width: 50%;
+    left: 20%;
+    top: 2%;
+}
+
+
+#bloc_orange{
+    position: relative;
+    background: url("assets/1-06.png") no-repeat;
+    background-size: contain;
+    /* border: 1px solid forestgreen; */
+    height: 79%;
+    width: 91%;
+    top: 4%;
+}
+#bloc3_tryphaena_s4{
+    height: 100%;
+    width: 90%;
+
+}
+#texte_gris{
+    position: relative;
+    background: url("assets/1-02.png") no-repeat;
+    background-size: contain;
+    /* border: 1px solid forestgreen; */
+    height: 16%;
+    width: 50%;
+    left: 20%;
+    top: 2%;
+    
+}
+#bloc_gris{
+    position: relative;
+    background: url("assets/1-07.png") no-repeat;
+    background-size: contain;
+    /* border: 1px solid forestgreen; */
+    height: 77%;
+    width: 91%;
+    top: 6%;
+ 
+}
+#ref_tryphaena_s4{
+    position: relative;
+    background: url("assets/1-08.png") no-repeat;
+    background-size: contain;
+    /* border: 0.2px solid skyblue;  */
+    height: 10%;
+    width: 76%;
+    left: 8%;
+    top: 3%;
+
+}
+/***********popup************/
+#popup_try_efficacy2{
+    position: relative;
+    background: url("assets/") no-repeat center center;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}

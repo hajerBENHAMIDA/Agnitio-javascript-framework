@@ -1,0 +1,158 @@
+#PRAC1 {
+    position: relative;
+    height: 75%;
+    width: 90%;
+    top: 13%;
+    left: 10%;
+     /* border: 1px solid red;   */
+}
+#titre_perjeta_s10{
+    position: relative;
+    height: 8%;
+    width: 63%;
+    background: url("assets/texte-01.png") no-repeat center center ;
+    background-size: contain ;
+    left: 13%;
+}
+#sous_titre_perjeta_s10{
+    position: relative;
+    height: 8%;
+    width: 58%;
+    background: url("assets/texte_2-01.png") no-repeat center center ;
+    background-size: contain ;
+    left: 17%;
+    top: 5%;
+}
+/*********************************/
+#schema_perjeta_s9{
+    position: relative;
+    background:url("assets/element_1-01.png") no-repeat center center;
+    background-size: contain;
+    height: 80%;
+    width: 90%;
+    left: 2%;
+    /* border: 5px solid coral; */
+    top: 6%;
+}
+
+#titre_bloc_schema_perjeta_s9{
+    position: relative;
+    height: 15%;
+    width: 100%;
+    /* border:1px solid lightcoral; */
+}
+#soustitre1_bloc{
+    position: absolute;
+    background: url("assets/element_5-01.png") no-repeat;
+    background-size: contain;
+    height: 45%;
+    width: 33%;
+    float: left;
+    left: 7%;
+    top: 35%;
+}
+#soustitre2_bloc{
+    position: absolute;
+    background: url("assets/element_6-01.png") no-repeat;
+    background-size: contain;
+    height: 45%;
+    width: 33%;
+    float: right;
+    right: 6%;
+    top: 35%;
+}
+/*************bloc1***************/
+#bloc1_schema_perjeta_s9{
+    position: relative;
+    height: 26.666%;
+    width: 100%;
+    /* border: 1px solid gold; */
+}
+#icones_bloc1_schema_perjeta_s9{
+    position: relative;
+    background: url("assets/element_2.png") no-repeat ;
+    background-size: contain;
+    height: 80%;
+    width: 93%;
+    left: 5%;
+
+}
+
+
+/*************bloc2***************/
+#bloc2_schema_perjeta_s9{
+    position: relative;
+    height: 26.666%;
+    width: 93%;
+    /* border: 1px solid gold; */
+}
+
+#icones_bloc2_schema_perjeta_s9{
+    position: relative;
+    background: url("assets/element_4-01.png") no-repeat;
+    background-size: contain;
+    height: 80%;
+    width: 100%;
+    left: 5%;
+    top: 5%;
+}
+
+/*************bloc3***************/
+#bloc3_schema_perjeta_s9{
+    position: relative;
+    height: 26.666%;
+    width: 93%;
+    /* border: 1px solid gold; */
+}
+#icones_bloc3_schema_perjeta_s9{
+    position: relative;
+    background: url("assets/element_3-01.png") no-repeat ;
+    background-size: contain;
+    height: 80%;
+    width: 100%;
+    left: 5%;
+    top: 5%;
+}
+
+/*popup**/
+#popup2_PER_PRAC1{
+    position: relative;
+    background: url("assets/popup/popup-01-01.png") no-repeat center center;
+    background-size: contain;
+    width: 100%;
+    height: 0%;
+    margin: 0 auto ;
+    padding-top: 49.33210502072778%;
+    margin-top:12%;
+
+
+}
+
+@keyframes appariton{
+    from {
+        opacity:0;
+
+    }
+    to {
+        opacity: 1;
+    }
+ }
+
+ @-webkit-keyframes appariton{
+     from {
+         opacity:0;
+
+     }
+     to {
+         opacity: 1;
+     }
+  }
+  
+  .soustitre1_bloc_anim{
+    -webkit-animation: appariton 2.5s  linear; 
+    animation: appariton 2.5s  linear;  
+  }
+  .soustitre2_bloc_anim{
+    -webkit-animation: appariton 2.5s  linear; 
+    animation: appariton 2.5s  linear;  
+  }

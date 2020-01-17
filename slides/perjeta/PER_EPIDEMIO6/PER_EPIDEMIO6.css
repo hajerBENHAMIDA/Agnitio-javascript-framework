@@ -1,0 +1,132 @@
+#EPIDEMIO6 {
+    position: relative;
+
+    height: 75%;
+    width: 90%;
+    top: 13%;
+    left: 10%;
+    /* border: 1px red solid; */
+}
+#titre_perjeta_s6{
+    position: relative;
+    background: url(assets/texte-01.png) no-repeat center center ;
+    background-size: contain;
+    /* border: 1px red solid; */
+    width: 65%;
+    height: 10%;
+    top: 0%;
+    left: 13%;
+    }
+
+#bloc_perjeta_s6{
+    position: relative;
+    /* border: 1px solid blue; */
+    height: 90%;
+    width: 100%;
+    top: 5%;
+}
+/*****************/
+#sous_bloc1_perjeta_s6{
+    position: relative;
+    background: url("assets/1-01.png") no-repeat;
+    background-size:contain;
+    /* border: 1px solid indianred; */
+    height: 33.333%;
+    width: 100%;
+
+
+}
+#picto1_sous_bloc1_perjeta_s6{
+    position: absolute;
+    /* border: 1px solid rosybrown; */
+    background: url("assets/1-05.gif") no-repeat center center;
+    background-size:contain;
+    height: 62%;
+    width: 10%;
+    top: 21%;
+    left: 4%;
+
+}
+/*****************/
+#sous_bloc2_perjeta_s6{
+    position: relative;
+    background: url("assets/1-03.png") no-repeat;
+    background-size:contain;
+    /* border: 1px solid darkgoldenrod; */
+    height: 33.333%;
+    width: 80%;
+    left: 20%;
+
+}
+
+#picto2_sous_bloc2_perjeta_s6{
+    position: absolute;
+    /* border: 1px solid rosybrown; */
+    background: url("assets/1-07.gif") no-repeat center center;
+    background-size:contain;
+    height: 62%;
+    width: 12%;
+    top: 21%;
+    left: 5%;
+}
+
+/*****************/
+#sous_bloc3_perjeta_s6{
+    position: relative;
+    background: url("assets/1-02.png") no-repeat;
+    background-size:contain;
+    /* border: 1px solid orange; */
+    height: 33.333%;
+    width: 100%;
+    width: 60%;
+    left: 40%;
+}
+#picto3_sous_bloc3_perjeta_s6{
+    position: absolute;
+    /* border: 1px solid rosybrown; */
+    background: url("assets/1-06.gif") no-repeat center center;
+    background-size:contain;
+    height: 62%;
+    width: 17%;
+    top: 21%;
+    left: 6%;
+}
+@-webkit-keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(-1000px);
+              transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(-1000px);
+              transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+.sous_bloc1_perjeta_s6_anim{
+    -webkit-animation: slide-in-left 1s linear;
+    animation: slide-in-left 1s linear;
+}
+
+.sous_bloc2_perjeta_s6_anim{
+    -webkit-animation: slide-in-left 1.2s linear ;
+    animation: slide-in-left 1.2s linear;
+}
+
+.sous_bloc3_perjeta_s6_anim{
+    -webkit-animation: slide-in-left 1.4s  linear;
+    animation: slide-in-left 1.4s linear;
+}

@@ -1,0 +1,69 @@
+#APH_SECURITY1 {}
+
+#aph-sec1-warpper {
+    height: 90%;
+    width: 85%;
+    margin: 0 auto;
+    margin-left: 10%;
+}
+
+ .icon-bloc::before {
+    content: "";
+    color: red ;
+    float: left;
+    position: relative;
+    left: 22px;
+    top: 34px;
+    height: 59px;
+    width: 63px;
+    /* background: black; */
+} 
+
+.icon-bloc1::before {
+    background: url("assets/picto1_aph.gif") no-repeat center center ;
+    background-size: contain ;
+    /* border: 1px solid red; */
+
+}
+.icon-bloc2::before {
+    background: url("assets/picto2_aph.gif") no-repeat center center ;
+    background-size: contain ;
+
+}
+.icon-bloc3::before {
+    background: url("assets/picto3_aph.gif") no-repeat center center ;
+    background-size: contain ;
+
+}
+
+#aph-sec2-title {
+    width: 70%;
+    height: 10%;
+    background: url(assets/texte_1.png) no-repeat center center ;
+    background-size: contain ;
+    margin: 0 auto ;
+    margin-bottom: 1%;
+}
+
+
+#aph-sec1-bloc-text1{
+    width: 100%;
+    height: 27%;
+    background: url(assets/bloc_de_texte_1.png) no-repeat top center ;
+    background-size: contain ;
+}
+
+#aph-sec1-bloc-text2{
+    width: 100%;
+    height: 33%;
+    background: url(assets/bloc_de_texte_2.png) no-repeat top center ;
+    background-size: contain ;
+}
+
+
+#aph-sec1-bloc-text3{
+    width: 100%;
+    height: 27%;
+    background: url(assets/bloc_de_texte_3.png) no-repeat top center ;
+    background-size: contain ;
+}
